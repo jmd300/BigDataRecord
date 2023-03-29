@@ -16,15 +16,16 @@
         <module>elasticsearch</module>
         <module>hadoop</module>
         <module>database</module>
+        <module>concurrency</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <scala.version>2.13.10</scala.version>
+        <scala.version>2.12.15</scala.version>
         <target.java.version>1.8</target.java.version>
-        <scala.binary.version>2.13</scala.binary.version>
+        <scala.binary.version>2.12</scala.binary.version>
 
         <maven.compiler.source>${target.java.version}</maven.compiler.source>
         <maven.compiler.target>${target.java.version}</maven.compiler.target>
@@ -75,11 +76,7 @@
             <artifactId>scala-reflect</artifactId>
             <version>${scala.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.13.4.1</version>
-        </dependency>
+
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>

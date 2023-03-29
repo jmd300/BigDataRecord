@@ -2,6 +2,7 @@ package com.zoo.spark.batch
 
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
+import utils.Parameters
 
 object HeadMemoryAndMaxMemory {
   private def printLocal = {
@@ -29,8 +30,9 @@ object HeadMemoryAndMaxMemory {
     val maxMemory = Runtime.getRuntime.maxMemory
     println("maxMemory: ", maxMemory)
     printLocal
+    println("ecutorNum is ", parameters.getExecutorNum)
     println("executor Core is ", parameters.getExecutorCores)
-    println("executor memory is ", parameters.getExecutorMemory("MB"))
+    println("executor memory is ", parameters.getExecutorMemory())
 
     val arr = Array(1, 2, 3)
     val rdd = spark.sparkContext.makeRDD(arr)

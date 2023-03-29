@@ -18,7 +18,7 @@ class ArgsMap(args: Array[String], msg: String = "") extends Serializable {
 
   def apply(keys: List[String]): List[String] = keys.map(key => this.apply(key))
 
-  def contains(key: String): Boolean = argsMap.contains(key)ev
+  def contains(key: String): Boolean = argsMap.contains(key)
 
   def getOrElse(key: String, v: String): String = argsMap.getOrElse(key, v)
 

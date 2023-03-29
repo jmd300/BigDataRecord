@@ -9,9 +9,6 @@ import org.apache.spark.sql.SparkSession
  */
 object ReadData {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName(this.getClass.getSimpleName).setMaster("local[2]")
-    val spark = SparkSession.builder().config(conf).getOrCreate()
-    import spark.implicits._
 
   }
 }
