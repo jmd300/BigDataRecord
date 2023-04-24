@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="BigDataRecord,FlinkRecord,JavaRecord,big-data,concurrency,database,elasticsearch,flink,hadoop,jlang,lang,spark" />
+    <profile name="Maven 1" modules="BigDataRecord,FlinkRecord,JavaRecord,akka,algorithm,big-data,concurrency,database,design,elasticsearch,flink,grpc,hadoop,hbase,hive,jlang,jvm,kafka,lang,mq,protobuf,rabbitmq,scalaz,spark,zio" />
   </component>
 </project>

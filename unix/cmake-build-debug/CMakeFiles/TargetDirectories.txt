@@ -1,0 +1,3 @@
+Y:/github/BigDataRecord/unix/cmake-build-debug/CMakeFiles/unix.dir
+Y:/github/BigDataRecord/unix/cmake-build-debug/CMakeFiles/edit_cache.dir
+Y:/github/BigDataRecord/unix/cmake-build-debug/CMakeFiles/rebuild_cache.dir

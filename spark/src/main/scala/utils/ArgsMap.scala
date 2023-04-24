@@ -1,5 +1,10 @@
 package utils
 
+/**
+ * 读取spark-submit输入的 main 参数
+ * @param args 形如：path=/home/data.csv year=2023
+ * @param msg 日志中的标识字符串，如果出现找不到的 key 输出到log
+ */
 class ArgsMap(args: Array[String], msg: String = "") extends Serializable {
   private val argsMap: Map[String, String] = args.map(e => {
     val idx = e.indexOf('=')

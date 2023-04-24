@@ -3,6 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+input
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
@@ -11,6 +13,10 @@ target/
 *.iws
 *.iml
 *.ipr
+
+### IntelliJ CLION ###
+unix/.idea
+unix/cmake-build-debug
 
 ### Eclipse ###
 .apt_generated
