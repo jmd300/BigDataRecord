@@ -16,6 +16,7 @@ input
 
 ### IntelliJ CLION ###
 unix/.idea
+
 unix/cmake-build-debug
 
 ### Eclipse ###

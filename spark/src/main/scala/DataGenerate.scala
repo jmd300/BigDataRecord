@@ -1,8 +1,6 @@
 import org.apache.spark.rdd.RDD
 import utils.Function.createLocalSparkSessionAndSparkContext
 
-import scala.collection.mutable
-import scala.collection.mutable.ArrayBuffer
 import scala.util.Random
 
 /**

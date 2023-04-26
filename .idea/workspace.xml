@@ -5,142 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/statistic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/FutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/InterruptDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/java/SelectorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/LambdaCatchDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/SyncFuncDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter02/Functions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter02/SyncQueue.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter02/SyncVar.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter02/SynchronizedNoDeadlock.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter02/SynchronizedProtectedUid.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter02/package.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter03/CollectionsConcurrentMapBulk.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter03/CollectionsTrieMapBulk.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter03/ExecutorCreate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter03/LazyValsAndBlocking.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter03/ProcessRun.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter03/package.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter04/FutureCallBacks.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter04/FuturesClumsyCallback.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter04/FuturesDataType.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter04/FuturesNonFatal.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter04/FuturesTry.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter04/PromisesCreate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/chapter04/PromisesCustomAsync.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/concurrency.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/study/FutureStart.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/com/zoo/grpc/Demo/GrpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/com/zoo/grpc/Demo/GrpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/com/zoo/grpc/api/RPCDateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/com/zoo/grpc/api/RPCDateRequestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/com/zoo/grpc/api/RPCDateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/com/zoo/grpc/api/RPCDateResponseOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/com/zoo/grpc/api/RPCDateServiceApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/com/zoo/grpc/api/RPCDateServiceGrpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/com/zoo/grpc/api/RPCDateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/src/main/proto/demo.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/src/main/java/ObjectSIzeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protobuf/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaz/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/DataGenerate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/KryoDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/DriverMemoryTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/PeekConfig.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/SpecifyJoinType.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/AqeDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/GroupByDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/GroupByPiovtDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/InnerJoinDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftAntiDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftJoinDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftSemiJoinDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/RightJoinDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/WordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/AggregateByKeyDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/AggregateDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/CoalesceTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/GroupByKeyDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/ReduceByKeyDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/ReduceDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/utils/Function.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c4f4d6346cf6d5ee456e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-53814ee4d3288771bcd8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9cbf5e933bb2b958a4f3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-29T09-55-55-0588.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/reply/target-unix-Debug-2f2f7b63e656f87a5a4f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-53ec0b6808cd1ba50ff6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/CMakeFiles/unix.dir/main.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/cmake-build-debug/unix.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unix/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zio/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/LearningConcurrency.scala" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/book/learningConcurrency.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/main/scala/com/zoo/concurrency/SyncFuncDemo.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lang/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/es/common/CreateIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/common/CreateIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/es/common/PutDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/common/PutDoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/es/poetry/search/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/search/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/es/poetry/search/OracleConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/search/OracleConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/es/poetry/search/Poetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/search/Poetry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/es/poetry/search/rw/OracleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/search/rw/OracleExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/es/poetry/search/rw/ReadCaoCaoPoetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/search/rw/ReadCaoCaoPoetry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/es/poetry/search/rw/ReadPoetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/search/rw/ReadPoetry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/es/poetry/search/rw/WriteToEs.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/search/rw/WriteToEs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/AqeDemo.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/HeadMemoryAndMaxMemory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/HeapMemoryAndMaxMemory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/WordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/utils/ArgsMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/utils/ArgsMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/wc/BoundedStreamWordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/wc/StreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/wc/StreamWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/wc/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/DataGenerate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/DataGenerate.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +103,20 @@
       <recent name="Y:\github\BigDataRecord\flink\input" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeftJoinDemo">
+  <component name="RunManager" selected="Application.StreamWordCount">
+    <configuration name="BatchWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.wc.BatchWordCount" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.wc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataGenerate" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="DataGenerate" />
       <module name="spark" />
@@ -261,9 +144,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="concurrency" />
+    <configuration name="StreamWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.wc.StreamWordCount" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.wc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -274,19 +163,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zoo.spark.batch.rdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="concurrency" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.concurrency.book.concurrency" />
-      <module name="concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.concurrency.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,20 +186,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.BatchWordCount" />
       <item itemvalue="Application.DataGenerate" />
       <item itemvalue="Application.LeftJoinDemo" />
+      <item itemvalue="Application.StreamWordCount" />
       <item itemvalue="Application.ObjectSIzeDemo" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.concurrency" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamWordCount" />
+        <item itemvalue="Application.BatchWordCount" />
         <item itemvalue="Application.LeftJoinDemo" />
         <item itemvalue="Application.DataGenerate" />
         <item itemvalue="Application.ObjectSIzeDemo" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.concurrency" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +233,7 @@
       <workItem from="1681702580601" duration="1310000" />
       <workItem from="1681866603935" duration="11759000" />
       <workItem from="1682213922274" duration="2712000" />
-      <workItem from="1682305201965" duration="9488000" />
+      <workItem from="1682305201965" duration="13825000" />
     </task>
     <servers />
   </component>
