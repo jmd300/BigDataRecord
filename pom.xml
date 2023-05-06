@@ -22,7 +22,7 @@
         <module>zio</module>
         <module>akka</module>
         <module>design</module>
-        <module>grpc</module>
+        <!--<module>grpc</module>-->
         <module>mq</module>
         <module>protobuf</module>
         <module>hive</module>

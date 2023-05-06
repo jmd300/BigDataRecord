@@ -5,7 +5,6 @@ import java.util.concurrent.TimeUnit;
  * @Date: 4/12/2023
  */
 public class InterruptDemo {
-
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(() -> {
             while (!Thread.currentThread().isInterrupted()){
