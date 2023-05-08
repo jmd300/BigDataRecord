@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/FutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/FutureDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/InterruptDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/InterruptDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hive/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hive/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/wordcount/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/wordcount/WordCountDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/WordCount.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "Y:/github/BigDataRecord/algorithm/src/main/scala/sort/scala",
+    "last_opened_file_path": "Y:/project/RedDataAlgo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,7 +102,7 @@
       <recent name="Y:\github\BigDataRecord\flink\input" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.OutputFormat">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.java.BubbleSort" />
       <module name="algorithm" />
@@ -119,29 +116,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreateObject" />
-      <module name="jvm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HiveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.hive.HiveTest" />
-      <module name="hive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.hive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JudgeJvmBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JudgeJvmBits" />
-      <module name="jvm" />
+    <configuration name="DownloadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DownloadFile" />
+      <module name="concurrency" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,6 +127,26 @@
       <option name="MAIN_CLASS_NAME" value="MetaSpaceOomExample" />
       <module name="jvm" />
       <option name="VM_PARAMETERS" value="-XX:MaxMetaspaceSize=10m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutputFormat" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.batch.dataframe.OutputFormat" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.spark.batch.dataframe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintVM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintVM" />
+      <module name="jvm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,19 +195,19 @@
       <item itemvalue="Application.MetaSpaceOomExample" />
       <item itemvalue="Application.WordCount" />
       <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.HiveTest" />
+      <item itemvalue="Application.DownloadFile" />
+      <item itemvalue="Application.OutputFormat" />
+      <item itemvalue="Application.PrintVM" />
       <item itemvalue="Application.WordCountDriver" />
-      <item itemvalue="Application.CreateObject" />
-      <item itemvalue="Application.JudgeJvmBits" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OutputFormat" />
+        <item itemvalue="Application.DownloadFile" />
+        <item itemvalue="Application.PrintVM" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.WordCountDriver" />
-        <item itemvalue="Application.HiveTest" />
-        <item itemvalue="Application.CreateObject" />
-        <item itemvalue="Application.JudgeJvmBits" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +242,7 @@
       <workItem from="1681866603935" duration="11759000" />
       <workItem from="1682213922274" duration="2712000" />
       <workItem from="1682305201965" duration="20892000" />
-      <workItem from="1683248829761" duration="20991000" />
+      <workItem from="1683248829761" duration="28152000" />
     </task>
     <servers />
   </component>

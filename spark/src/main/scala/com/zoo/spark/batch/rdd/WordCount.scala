@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit
 
 object WordCount {
   def main(args: Array[String]): Unit = {
-    TimeUnit.SECONDS.sleep(20)
     val argsMap = new ArgsMap(args)
 
     val inputPath = argsMap.getOrElse("inputPath", "input/words.txt")
