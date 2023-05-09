@@ -7,7 +7,7 @@ import java.util.Random;
  * @Author: JMD
  * @Date: 5/6/2023
  * 参考：https://blog.csdn.net/allway2/article/details/114003894
- *
+ *      https://blog.csdn.net/weixin_44491927/article/details/105120985
  * 计数排序是一个非基于比较的排序算法，该算法于1954年由 Harold H. Seward 提出。它的优势在于在对一定范围内的整数排序时，它的复杂度为Ο(n+k)（其中k是整数的范围），快于任何比较排序算法。
  */
 public class CountingSort {

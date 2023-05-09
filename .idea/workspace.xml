@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/sort/java/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/sort/java/CountingSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +234,7 @@
       <workItem from="1682213922274" duration="2712000" />
       <workItem from="1682305201965" duration="20892000" />
       <workItem from="1683248829761" duration="28152000" />
-      <workItem from="1683594018457" duration="4543000" />
+      <workItem from="1683594018457" duration="4598000" />
     </task>
     <servers />
   </component>
