@@ -11,7 +11,7 @@ import java.util.Random;
  * 计数排序是一个非基于比较的排序算法，该算法于1954年由 Harold H. Seward 提出。它的优势在于在对一定范围内的整数排序时，它的复杂度为Ο(n+k)（其中k是整数的范围），快于任何比较排序算法。
  */
 public class CountingSort {
-    public static void countingSort(int[] arr) {
+    public static void countingSort(int[] arr, boolean isDesc) {
         if (arr == null || arr.length < 2) {
             return;
         }
@@ -22,16 +22,19 @@ public class CountingSort {
             min = Math.min(min, k);
         }
         System.out.println("min is: " + min);
-        // 辅助数组的含义：在arr中 等于 index 的数的数量为 count[index]
+
+        System.out.println("第一次给辅助数组赋值，辅助数组的含义：在arr中 等于 index 的数的数量为 count[index]");
         int[] count = new int[max + 1 - min];
         for (int j : arr) {
             count[j - min]++;
         }
+        System.out.println("第一次给辅助数组赋值，count数组为：" + Arrays.toString(count));
 
-        System.out.println("辅助数组的含义：在arr中小于等于 index 的数的数量为 count[index]");
         for (int i = 1; i < count.length; i++) {
             count[i] += count[i - 1];
         }
+        System.out.println("第二次给辅助数组赋值,辅助数组的含义：在arr中 小于等于 index 的数的数量为 count[index]");
+        System.out.println("第二次给辅助数组赋值，count数组为：" + Arrays.toString(count));
 
         int[] tmp = new int[arr.length];
 
@@ -42,7 +45,13 @@ public class CountingSort {
         }
 
         // 可以在这里决定要正序排列还是逆序排列
-        System.arraycopy(tmp, 0, arr, 0, arr.length);
+        for(int i = 0; i < arr.length; i++){
+            if(isDesc){
+                arr[arr.length - i - 1] = tmp[i];
+            }else{
+                arr[i] = tmp[i];
+            }
+        }
     }
 
     public static void main(String[] args) {
@@ -54,8 +63,10 @@ public class CountingSort {
         }
         System.out.println(Arrays.toString(arr));
 
+        countingSort(arr, false);
+        System.out.println(Arrays.toString(arr));
 
-        countingSort(arr);
+        countingSort(arr, true);
         System.out.println(Arrays.toString(arr));
     }
 }
