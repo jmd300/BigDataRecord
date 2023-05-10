@@ -1,6 +1,7 @@
 package com.zoo.hadoop.mapreduce;
 
 import org.apache.hadoop.mapred.MapTask;
+import org.apache.hadoop.yarn.state.StateMachineFactory;
 
 /**
  * @Author: JMD
@@ -8,5 +9,6 @@ import org.apache.hadoop.mapred.MapTask;
  */
 public class Test {
     public static void main(String[] args) {
+
     }
 }

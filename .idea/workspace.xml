@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/sort/java/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/sort/java/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/wc/BatchWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/wordcount/BatchWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/wc/StreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/wordcount/StreamWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/mapreduce/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/mapreduce/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +103,25 @@
       <recent name="Y:\github\BigDataRecord" />
       <recent name="Y:\github\BigDataRecord\flink\input" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zoo.flink.scala.wordcount" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CountingSort">
+  <component name="RunManager" selected="Application.ParallelSourceExample">
+    <configuration name="BatchWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.javawordcount.BatchWordCount" />
+      <module name="flink" />
+      <option name="PROGRAM_PARAMETERS" value="input Y:\github\BigDataRecord\flink_out\" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.javawordcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.java.CountingSort" />
       <module name="algorithm" />
@@ -114,16 +135,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DownloadFile" />
-      <module name="concurrency" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTopN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindTopN" />
-      <module name="algorithm" />
+    <configuration name="KafkaSourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.source.KafkaSourceDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.java.source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutputFormat" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.batch.dataframe.OutputFormat" />
-      <module name="spark" />
+    <configuration name="ParallelSourceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.source.ParallelSourceExample" />
+      <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.spark.batch.dataframe.*" />
+          <option name="PATTERN" value="com.zoo.flink.java.source.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,9 +169,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintVM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintVM" />
-      <module name="jvm" />
+    <configuration name="SocketSourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.source.SocketSourceDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.java.source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.source.SourceDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.java.source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,22 +223,23 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.BatchWordCount" />
       <item itemvalue="Application.MetaSpaceOomExample" />
       <item itemvalue="Application.WordCount" />
       <item itemvalue="Application.CountingSort" />
-      <item itemvalue="Application.FindTopN" />
-      <item itemvalue="Application.DownloadFile" />
-      <item itemvalue="Application.OutputFormat" />
-      <item itemvalue="Application.PrintVM" />
+      <item itemvalue="Application.KafkaSourceDemo" />
+      <item itemvalue="Application.ParallelSourceExample" />
+      <item itemvalue="Application.SocketSourceDemo" />
+      <item itemvalue="Application.SourceDemo" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelSourceExample" />
+        <item itemvalue="Application.KafkaSourceDemo" />
+        <item itemvalue="Application.SocketSourceDemo" />
+        <item itemvalue="Application.SourceDemo" />
         <item itemvalue="Application.CountingSort" />
-        <item itemvalue="Application.FindTopN" />
-        <item itemvalue="Application.OutputFormat" />
-        <item itemvalue="Application.DownloadFile" />
-        <item itemvalue="Application.PrintVM" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +275,7 @@
       <workItem from="1682213922274" duration="2712000" />
       <workItem from="1682305201965" duration="20892000" />
       <workItem from="1683248829761" duration="28152000" />
-      <workItem from="1683594018457" duration="4990000" />
+      <workItem from="1683594018457" duration="19187000" />
     </task>
     <servers />
   </component>
