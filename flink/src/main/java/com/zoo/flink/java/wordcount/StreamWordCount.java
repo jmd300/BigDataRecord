@@ -1,4 +1,4 @@
-package com.zoo.flink.wc;
+package com.zoo.flink.java.wordcount;
 
 import lombok.Getter;
 import org.apache.flink.api.common.typeinfo.Types;

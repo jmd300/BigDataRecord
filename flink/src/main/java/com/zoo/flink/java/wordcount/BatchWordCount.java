@@ -1,4 +1,4 @@
-package com.zoo.flink.wc;
+package com.zoo.flink.java.wordcount;
 
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.ExecutionEnvironment;
@@ -6,6 +6,7 @@ import org.apache.flink.api.java.operators.AggregateOperator;
 import org.apache.flink.api.java.operators.DataSource;
 import org.apache.flink.api.java.operators.FlatMapOperator;
 import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.core.fs.FileSystem.WriteMode;
 import org.apache.flink.util.Collector;
 
 /**
@@ -14,13 +15,18 @@ import org.apache.flink.util.Collector;
  * 批处理接口运行word count
  * 大数据技术之 Flink 2.3.1
  */
+
+/**
+ * 命令行提交参数
+ *  bin/flink run -m hadoop102:8081 -c com.zoo.flink.wordcount.BatchWordCount ~/BigDataRecord-jar-with-dependencies.jar ../hadoop-3.1.3/wcinput hdfs://hadoop102:8020/out
+ */
 public class BatchWordCount {
     public static void main(String[] args) throws Exception {
         // 创建执行环境
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
         // 从文件读取数据 按行读取(存储的元素就是每行的文本)
-        DataSource<String> lineDs = env.readTextFile("input/words.txt");
+        DataSource<String> lineDs = env.readTextFile(args[0]).setParallelism(1);
 
         // 转换数据格式
         FlatMapOperator<String, Tuple2<String, Long>> wordAndOne = lineDs.flatMap((String line, Collector<Tuple2<String, Long>> out) -> {
@@ -33,13 +39,18 @@ public class BatchWordCount {
                 .returns(Types.TUPLE(Types.STRING, Types.LONG));
 
         // word 进行分组、聚合统计
-        AggregateOperator<Tuple2<String, Long>> sum = wordAndOne.groupBy(0).sum(1);
+        AggregateOperator<Tuple2<String, Long>> sum = wordAndOne.setParallelism(2).groupBy(0).sum(1);
 
         // 打印结果
-        sum.print();
+        // sum.print();
+        sum.map(e -> {
+            System.out.println((e.f0 + "===" +  e.f1));
+            return e;
+        }).returns(Types.TUPLE(Types.STRING, Types.LONG))
+                .writeAsCsv(args[1], WriteMode.OVERWRITE).setParallelism(2);
 
         // 可以直接链式编程
-        env.readTextFile("input/words.txt")
+/*        env.readTextFile("input/words.txt")
                 .flatMap((String line, Collector<Tuple2<String, Long>> out) -> {
                     String[] words = line.split(" ");
                     for (String word : words) {
@@ -48,6 +59,7 @@ public class BatchWordCount {
                 })
                 .returns(Types.TUPLE(Types.STRING, Types.LONG))
                 .groupBy(0).sum(1)
-                .print();
+                .print();*/
+        env.execute();
     }
 }
