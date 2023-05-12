@@ -19,7 +19,7 @@ object SinkToRedisDemo extends FlinkEnv{
     override def  getCommandDescription: RedisCommandDescription = new RedisCommandDescription(RedisCommand.HSET, "clicks-scala")
   }
   def main(args: Array[String]): Unit = {
-    // 创建一个到 redis 连接的配置
+    // 创建一个连接到 redis 的配置
     val conf: FlinkJedisPoolConfig = new FlinkJedisPoolConfig.Builder().setHost("hadoop102").setPort(6379).build
 
     env.addSource(new ClickSource).addSink(new RedisSink[Event](conf, new SinkToRedisDemo.RedisSinkBuilder))

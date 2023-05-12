@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkToFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkToFileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkToMysqlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkToMysqlDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkToRedisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkToRedisDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/source/SourceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/source/SourceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hbase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hbase/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/sink/SinkToRedisDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/sink/SinkToRedisDemo.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +273,7 @@
       <workItem from="1682213922274" duration="2712000" />
       <workItem from="1682305201965" duration="20892000" />
       <workItem from="1683248829761" duration="28152000" />
-      <workItem from="1683594018457" duration="57029000" />
+      <workItem from="1683594018457" duration="57214000" />
     </task>
     <servers />
   </component>
