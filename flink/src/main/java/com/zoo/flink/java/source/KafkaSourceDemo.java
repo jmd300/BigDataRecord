@@ -1,7 +1,7 @@
 package com.zoo.flink.java.source;
 
+import com.zoo.flink.java.FlinkEnv;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
-import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 
@@ -16,11 +16,8 @@ import java.util.Properties;
  *   bin/kafka-console-producer.sh --topic flink-demo --bootstrap-server hadoop102:9092
  * 3. 本程序作为消费者
  */
-public class KafkaSourceDemo {
+public class KafkaSourceDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
-        StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        env.setParallelism(1);
-
         Properties properties = new Properties();
         properties.setProperty("bootstrap.servers", "hadoop102:9092");
         properties.setProperty("group.id", "flink-group");

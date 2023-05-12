@@ -1,6 +1,7 @@
 package com.zoo.flink.java.pojo;
 
 import java.sql.Timestamp;
+import java.util.Objects;
 
 /**
  * @Author: JMD
@@ -19,6 +20,7 @@ public class Event {
         this.timestamp = timestamp;
     }
 
+
     @Override
     public String toString() {
         return "Event{" +
@@ -26,5 +28,18 @@ public class Event {
                 ", url='" + url + '\'' +
                 ", timestamp=" + new Timestamp(timestamp) +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Event event = (Event) o;
+        return Objects.equals(user, event.user) && Objects.equals(url, event.url) && Objects.equals(timestamp, event.timestamp);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(user, url, timestamp);
     }
 }

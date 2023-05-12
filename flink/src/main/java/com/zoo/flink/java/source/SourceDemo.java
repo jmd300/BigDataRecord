@@ -1,8 +1,8 @@
 package com.zoo.flink.java.source;
 
+import com.zoo.flink.java.FlinkEnv;
 import com.zoo.flink.java.pojo.Event;
 import org.apache.flink.streaming.api.datastream.DataStream;
-import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 import java.util.ArrayList;
 
@@ -10,11 +10,8 @@ import java.util.ArrayList;
  * @Author: JMD
  * @Date: 5/10/2023
  */
-public class SourceDemo {
+public class SourceDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
-        StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        env.setParallelism(1);
-
         ArrayList<Event> clicks = new ArrayList<>();
         clicks.add(new Event("Mary","./home",1000L));
         clicks.add(new Event("Bob","./cart",2000L));

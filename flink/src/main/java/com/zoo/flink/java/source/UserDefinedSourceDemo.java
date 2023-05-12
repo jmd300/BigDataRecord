@@ -1,18 +1,15 @@
 package com.zoo.flink.java.source;
 
+import com.zoo.flink.java.FlinkEnv;
 import com.zoo.flink.java.pojo.Event;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
-import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 /**
  * @Author: JMD
  * @Date: 5/10/2023
  */
-public class UserDefinedSourceDemo {
+public class UserDefinedSourceDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
-        StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        env.setParallelism(1);
-
         // 有了自定义的 source function，调用 addSource 方法
         // 这里要注意的是 SourceFunction 接口定义的数据源，并行度只能设置为 1，如果数据源设
         // 置为大于 1 的并行度，则会抛出异常。

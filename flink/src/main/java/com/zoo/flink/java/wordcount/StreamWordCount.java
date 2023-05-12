@@ -1,11 +1,10 @@
 package com.zoo.flink.java.wordcount;
 
-import lombok.Getter;
+import com.zoo.flink.java.FlinkEnv;
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
-import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.util.Collector;
 
 import java.util.Arrays;
@@ -33,10 +32,8 @@ import java.util.function.Supplier;
  * 的并行线程有 4 个。这段代码不同的运行环境，得到的结果会是不同的。关于 Flink 程序并行
  * 执行的数量，可以通过设定“并行度”（Parallelism）来进行配置
  */
-public class StreamWordCount {
+public class StreamWordCount extends FlinkEnv {
     ThreadLocal<Integer> intVal = ThreadLocal.withInitial(() -> 0);
-    @Getter
-    StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
     public void run(Supplier<DataStreamSource<String>> readFunc) throws Exception {
         DataStreamSource<String> lineDss = readFunc.get();
 
@@ -57,11 +54,11 @@ public class StreamWordCount {
     }
     public static void runBoundedStreamWordCount() throws Exception {
         StreamWordCount wordCount = new StreamWordCount();
-        wordCount.run(() -> wordCount.getEnv().readTextFile("input/words.txt"));
+        wordCount.run(() -> env.readTextFile("input/words.txt"));
     }
     public static void runStreamWordCount() throws Exception{
         StreamWordCount wordCount = new StreamWordCount();
-        wordCount.run(() -> wordCount.getEnv().socketTextStream("hadoop102", 7777));
+        wordCount.run(() -> env.socketTextStream("hadoop102", 7777));
     }
 
     public static void main(String[] args) throws Exception {
