@@ -1,9 +1,14 @@
 package com.zoo.flink.java.sink;
 
 import com.zoo.flink.java.FlinkEnv;
+import com.zoo.flink.java.pojo.Event;
 import org.apache.flink.connector.jdbc.JdbcConnectionOptions;
 import org.apache.flink.connector.jdbc.JdbcExecutionOptions;
 import org.apache.flink.connector.jdbc.JdbcSink;
+import org.apache.flink.connector.jdbc.JdbcStatementBuilder;
+
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 /**
  * @Author: JMD
@@ -15,9 +20,9 @@ public class SinkToMysqlDemo extends FlinkEnv {
         arrayStream.addSink(
                 JdbcSink.sink(
                         "INSERT INTO clicks (user, url) VALUES (?, ?)",
-                        (statement, r) -> {
-                            statement.setString(1, r.user);
-                            statement.setString(2, r.url);
+                        (JdbcStatementBuilder<Event>) (ps, event) -> {
+                            ps.setString(1, event.user);
+                            ps.setString(2, event.url);
                         },
                         JdbcExecutionOptions.builder()
                                 .withBatchSize(1000)

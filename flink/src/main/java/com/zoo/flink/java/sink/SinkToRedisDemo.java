@@ -26,7 +26,7 @@ public class SinkToRedisDemo extends FlinkEnv {
         }
         @Override
         public RedisCommandDescription getCommandDescription() {
-            return new RedisCommandDescription(RedisCommand.HSET, "clicks");
+            return new RedisCommandDescription(RedisCommand.HSET, "clicks-java");
         }
     }
 
@@ -41,6 +41,4 @@ public class SinkToRedisDemo extends FlinkEnv {
 
         env.execute();
     }
-
-
 }

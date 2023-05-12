@@ -37,8 +37,6 @@ public class SourceDemo extends FlinkEnv {
         DataStream<String> stream3 = env.readTextFile("input/words.txt");
         stream3.print();
 
-
-
         env.execute();
     }
 }
