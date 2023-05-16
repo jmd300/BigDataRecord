@@ -20,7 +20,6 @@ public class Event {
         this.timestamp = timestamp;
     }
 
-
     @Override
     public String toString() {
         return "Event{" +
