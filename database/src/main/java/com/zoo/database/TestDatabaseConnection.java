@@ -9,7 +9,7 @@ import java.sql.SQLException;
  * Date: 5/16/2023
  */
 public class TestDatabaseConnection {
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) {
         String db       = args[0];
         String ip       = args[1];
         String port     = args[2];
