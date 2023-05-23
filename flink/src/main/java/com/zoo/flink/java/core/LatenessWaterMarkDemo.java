@@ -1,5 +1,6 @@
-package com.zoo.flink.java;
+package com.zoo.flink.java.core;
 
+import com.zoo.flink.java.FlinkEnv;
 import com.zoo.flink.java.pojo.Event;
 import com.zoo.flink.java.source.ClickSource;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
@@ -13,7 +14,7 @@ import java.time.Duration;
  *
  * onPeriodicEmit：周期性调用的方法，可以由 WatermarkOutput 发出水位线。周期时间为处理时间，可以调用环境配置的.setAutoWatermarkInterval()方法来设置，默认为200ms。
  */
-public class LatenessWaterMarkDemo extends FlinkEnv{
+public class LatenessWaterMarkDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
         env.addSource(new ClickSource())
         .assignTimestampsAndWatermarks(                                                     // 插入水位线的逻辑
