@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/LatenessWaterMarkDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/core/LatenessWaterMarkDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/concurrency/InterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/concurrency/InterfaceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,20 @@
       <recent name="com.zoo.flink.scala.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuoteScalaObject">
+  <component name="RunManager" selected="Application.TopNDemo">
+    <configuration name="中文示例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.中文示例" />
+      <module name="lang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.lang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BatchWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zoo.flink.javawordcount.BatchWordCount" />
       <module name="flink" />
@@ -123,13 +137,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JudgeJvmBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JudgeJvmBits" />
-      <module name="jvm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,13 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDatabaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.database.TestDatabaseConnection" />
-      <module name="database" />
-      <option name="PROGRAM_PARAMETERS" value="172.16.51.100 3306 lionful root lionful##123" />
+    <configuration name="TopNDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.process.TopNDemo" />
+      <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.database.*" />
+          <option name="PATTERN" value="com.zoo.flink.java.process.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,20 +232,20 @@
       <item itemvalue="Application.BatchWordCount" />
       <item itemvalue="Application.MetaSpaceOomExample" />
       <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.TopNDemo" />
+      <item itemvalue="Application.中文示例" />
       <item itemvalue="Application.QuoteScalaObject" />
-      <item itemvalue="Application.JudgeJvmBits" />
       <item itemvalue="Application.MysqlTest" />
       <item itemvalue="Application.OaDb" />
-      <item itemvalue="Application.TestDatabaseConnection" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopNDemo" />
+        <item itemvalue="Application.中文示例" />
         <item itemvalue="Application.QuoteScalaObject" />
         <item itemvalue="Application.OaDb" />
         <item itemvalue="Application.MysqlTest" />
-        <item itemvalue="Application.JudgeJvmBits" />
-        <item itemvalue="Application.TestDatabaseConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +285,10 @@
       <workItem from="1684466030641" duration="1412000" />
       <workItem from="1684478841660" duration="853000" />
       <workItem from="1684479757640" duration="2003000" />
-      <workItem from="1684482847732" duration="11921000" />
+      <workItem from="1684482847732" duration="14980000" />
+      <workItem from="1684982320517" duration="598000" />
+      <workItem from="1685000066564" duration="302000" />
+      <workItem from="1685322987953" duration="3214000" />
     </task>
     <servers />
   </component>
