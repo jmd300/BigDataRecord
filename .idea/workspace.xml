@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lang/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/RichFunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/RichFunctionDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/GUOWE/Desktop/work/fr-data&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Y:/gitee/spark-examples&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -291,7 +291,8 @@
       <workItem from="1684982320517" duration="598000" />
       <workItem from="1685000066564" duration="302000" />
       <workItem from="1685322987953" duration="5640000" />
-      <workItem from="1685408809095" duration="2546000" />
+      <workItem from="1685408809095" duration="4515000" />
+      <workItem from="1685425299531" duration="3357000" />
     </task>
     <servers />
   </component>
