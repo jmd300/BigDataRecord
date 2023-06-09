@@ -5,5 +5,5 @@ package com.zoo.lang.scala.test
  * @Date: 6/8/2023
  */
 class Person {
-  val name = "person"
+  private val name = "person"
 }

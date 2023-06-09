@@ -8,7 +8,7 @@ class BoyClass extends Person {
 
 }
 
-object Boy{
+object BoyClass{
   def main(args: Array[String]): Unit = {
     // println(name) 不可以的
   }
