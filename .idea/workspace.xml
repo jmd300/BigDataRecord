@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/state/ListStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/state/ListStateDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/stream/CreateStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/stream/CreateStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +112,7 @@
       <recent name="com.zoo.flink.scala.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateStream">
+  <component name="RunManager" selected="Application.DownStreamCollectors">
     <configuration name="BatchWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zoo.flink.javawordcount.BatchWordCount" />
       <module name="flink" />
@@ -121,19 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zoo.flink.javawordcount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Boy" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.scala.test.Boy" />
-      <module name="lang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.lang.scala.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,10 +142,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DownStreamCollectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.collecting.DownStreamCollectors" />
+      <module name="lang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.lang.collecting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MetaSpaceOomExample" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MetaSpaceOomExample" />
       <module name="jvm" />
       <option name="VM_PARAMETERS" value="-XX:MaxMetaspaceSize=10m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.stream.OptionalDemo" />
+      <module name="lang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.lang.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,25 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoJdkProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.proxy.UserDaoJdkProxy" />
+    <configuration name="UseStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.stream.UseStream" />
       <module name="lang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.lang.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserInterceptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.proxy.UserInterceptor" />
-      <module name="lang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.lang.proxy.*" />
+          <option name="PATTERN" value="com.zoo.lang.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,20 +233,20 @@
       <item itemvalue="Application.BatchWordCount" />
       <item itemvalue="Application.MetaSpaceOomExample" />
       <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.DownStreamCollectors" />
+      <item itemvalue="Application.OptionalDemo" />
       <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.Boy" />
+      <item itemvalue="Application.UseStream" />
       <item itemvalue="Application.CreateStream" />
-      <item itemvalue="Application.UserDaoJdkProxy" />
-      <item itemvalue="Application.UserInterceptor" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DownStreamCollectors" />
+        <item itemvalue="Application.OptionalDemo" />
+        <item itemvalue="Application.UseStream" />
         <item itemvalue="Application.CreateStream" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.Boy" />
-        <item itemvalue="Application.UserInterceptor" />
-        <item itemvalue="Application.UserDaoJdkProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +295,7 @@
       <workItem from="1686013420776" duration="1241000" />
       <workItem from="1686104607140" duration="598000" />
       <workItem from="1686105880879" duration="1256000" />
-      <workItem from="1686196185769" duration="14142000" />
+      <workItem from="1686196185769" duration="22607000" />
     </task>
     <servers />
   </component>
