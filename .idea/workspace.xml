@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/stream/PrimitiveTypeStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/stream/PrimitiveTypeStreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +295,7 @@
       <workItem from="1686104607140" duration="598000" />
       <workItem from="1686105880879" duration="1256000" />
       <workItem from="1686196185769" duration="25660000" />
-      <workItem from="1686724470523" duration="1455000" />
+      <workItem from="1686724470523" duration="3114000" />
     </task>
     <servers />
   </component>
