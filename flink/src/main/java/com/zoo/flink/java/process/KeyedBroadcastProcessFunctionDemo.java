@@ -1,6 +1,6 @@
 package com.zoo.flink.java.process;
 
-import com.zoo.flink.java.FlinkEnv;
+import com.zoo.flink.java.util.FlinkEnv;
 
 /**
  * @Author: JMD

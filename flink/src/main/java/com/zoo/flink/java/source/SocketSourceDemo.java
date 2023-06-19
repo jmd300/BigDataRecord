@@ -1,6 +1,6 @@
 package com.zoo.flink.java.source;
 
-import com.zoo.flink.java.FlinkEnv;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.streaming.api.datastream.DataStream;
 
 /**

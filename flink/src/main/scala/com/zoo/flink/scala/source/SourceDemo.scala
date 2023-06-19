@@ -1,7 +1,7 @@
 package com.zoo.flink.scala.source
 
-import com.zoo.flink.java.pojo.Event
-import com.zoo.flink.scala.FlinkEnv
+import com.zoo.flink.java.util.Event
+import com.zoo.flink.scala.util.FlinkEnv
 import org.apache.flink.streaming.api.scala.createTypeInformation
 
 /**

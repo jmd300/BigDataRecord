@@ -1,6 +1,6 @@
 package com.zoo.flink.java.source;
 
-import com.zoo.flink.java.pojo.Event;
+import com.zoo.flink.java.util.Event;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 
 import java.util.Calendar;

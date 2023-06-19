@@ -1,21 +1,10 @@
 package com.zoo.flink.java.window;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
-import com.zoo.flink.java.source.ClickSource;
-import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
-import org.apache.flink.api.common.eventtime.WatermarkStrategy;
-import org.apache.flink.api.common.functions.MapFunction;
-import org.apache.flink.api.common.functions.ReduceFunction;
-import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.streaming.api.windowing.assigners.ProcessingTimeSessionWindows;
 import org.apache.flink.streaming.api.windowing.assigners.SlidingProcessingTimeWindows;
-import org.apache.flink.streaming.api.windowing.assigners.TumblingEventTimeWindows;
 import org.apache.flink.streaming.api.windowing.assigners.TumblingProcessingTimeWindows;
 import org.apache.flink.streaming.api.windowing.time.Time;
-import org.apache.flink.api.java.tuple.Tuple2;
-
-import java.time.Duration;
 
 /**
  * @Author: JMD
@@ -38,7 +27,7 @@ public class WindowsDemo extends FlinkEnv {
         arrayStream.keyBy(e -> e.user)
         .window(ProcessingTimeSessionWindows.withGap(Time.seconds(10)));
 
-        /**
+        /*
          * .window(ProcessingTimeSessionWindows.withDynamicGap(new
          * SessionWindowTimeGapExtractor<Tuple2<String, Long>>() {
          * @Override

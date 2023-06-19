@@ -1,8 +1,8 @@
 package com.zoo.flink.java.process;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
-import com.zoo.flink.java.pojo.UrlViewCount;
+import com.zoo.flink.java.util.Event;
+import com.zoo.flink.java.util.FlinkEnv;
+import com.zoo.flink.java.util.UrlViewCount;
 import com.zoo.flink.java.source.ClickSource;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
@@ -29,7 +29,7 @@ import java.util.Comparator;
  * 作为process函数的示例，其实topN不需要如此冗余的实现，只需要 ProcessWindowFunction 即可
  */
 
-public class TopNDemo2 extends FlinkEnv{
+public class TopNDemo2 extends FlinkEnv {
     public static void main(String[] args) throws Exception {
         // 从自定义数据源读取数据
         SingleOutputStreamOperator<Event> eventStream = env.addSource(new ClickSource())

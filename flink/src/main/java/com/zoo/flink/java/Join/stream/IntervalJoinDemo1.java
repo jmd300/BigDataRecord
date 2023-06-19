@@ -1,7 +1,7 @@
-package com.zoo.flink.java.Join;
+package com.zoo.flink.java.Join.stream;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
+import com.zoo.flink.java.util.Event;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.streaming.api.functions.co.ProcessJoinFunction;
 import org.apache.flink.util.Collector;
 import org.apache.flink.streaming.api.windowing.time.Time;
@@ -12,7 +12,7 @@ import org.apache.flink.streaming.api.windowing.time.Time;
  *
  * 间隔联结
  */
-public class IntervalJoinDemo extends FlinkEnv {
+public class IntervalJoinDemo1 extends FlinkEnv {
     public static void main(String[] args) {
         arrayStream.keyBy(e -> e.user)
                 .intervalJoin(arrayStream.keyBy(e -> e.user))

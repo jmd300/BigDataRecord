@@ -1,6 +1,6 @@
 package com.zoo.flink.scala.sink
 
-import com.zoo.flink.scala.FlinkEnv
+import com.zoo.flink.scala.util.FlinkEnv
 import org.apache.flink.api.common.serialization.SimpleStringEncoder
 import org.apache.flink.core.fs.Path
 import org.apache.flink.streaming.api.functions.sink.filesystem.StreamingFileSink

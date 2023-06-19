@@ -1,6 +1,6 @@
 package com.zoo.flink.scala.source
 
-import com.zoo.flink.scala.FlinkEnv
+import com.zoo.flink.scala.util.FlinkEnv
 import org.apache.flink.streaming.api.functions.source.{ParallelSourceFunction, SourceFunction}
 import org.apache.flink.streaming.api.scala.createTypeInformation
 

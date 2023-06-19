@@ -1,7 +1,7 @@
 package com.zoo.flink.scala.sink
 
-import com.zoo.flink.java.pojo.Event
-import com.zoo.flink.scala.FlinkEnv
+import com.zoo.flink.java.util.Event
+import com.zoo.flink.scala.util.FlinkEnv
 import org.apache.flink.api.common.functions.RuntimeContext
 import org.apache.flink.streaming.connectors.elasticsearch.{ElasticsearchSinkFunction, RequestIndexer}
 import org.apache.flink.streaming.connectors.elasticsearch7.ElasticsearchSink

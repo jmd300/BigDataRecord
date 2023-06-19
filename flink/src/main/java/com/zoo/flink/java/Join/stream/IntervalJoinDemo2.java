@@ -1,7 +1,7 @@
-package com.zoo.flink.java.Join;
+package com.zoo.flink.java.Join.stream;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
+import com.zoo.flink.java.util.Event;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.java.tuple.Tuple3;
@@ -14,7 +14,7 @@ import org.apache.flink.util.Collector;
  * @Author: JMD
  * @Date: 5/29/2023
  */
-public class IntervalJoinExample extends FlinkEnv {
+public class IntervalJoinDemo2 extends FlinkEnv {
     public static void main(String[] args) throws Exception {
         SingleOutputStreamOperator<Tuple3<String, String, Long>> orderStream =
                 env.fromElements(

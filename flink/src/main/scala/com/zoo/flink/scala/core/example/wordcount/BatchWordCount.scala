@@ -1,4 +1,4 @@
-package com.zoo.flink.scala.wordcount
+package com.zoo.flink.scala.core.example.wordcount
 
 import org.apache.flink.api.scala.{DataSet, ExecutionEnvironment}
 import org.apache.flink.api.scala._

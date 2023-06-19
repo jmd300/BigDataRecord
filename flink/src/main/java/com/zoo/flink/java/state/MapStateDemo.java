@@ -1,7 +1,7 @@
 package com.zoo.flink.java.state;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
+import com.zoo.flink.java.util.Event;
+import com.zoo.flink.java.util.FlinkEnv;
 import com.zoo.flink.java.source.ClickSource;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
@@ -29,8 +29,7 @@ public class MapStateDemo extends FlinkEnv {
                 .print();
         env.execute();
     }
-    public static class FakeWindowResult extends KeyedProcessFunction<String,
-            Event, String>{
+    public static class FakeWindowResult extends KeyedProcessFunction<String, Event, String>{
         // 定义属性，窗口长度
         private final Long windowSize;
         public FakeWindowResult(Long windowSize) {
@@ -69,8 +68,7 @@ public class MapStateDemo extends FlinkEnv {
             Long pv = windowPvMapState.get(windowStart);
             out.collect( "url: " + ctx.getCurrentKey()
                     + " 访问量: " + pv
-                    + " 窗 口 ： " + new Timestamp(windowStart) + " ~ " + new
-                    Timestamp(windowEnd));
+                    + " 窗 口 ： " + new Timestamp(windowStart) + " ~ " + new Timestamp(windowEnd));
             // 模拟窗口的销毁，清除 map 中的 key
             windowPvMapState.remove(windowStart);
         }

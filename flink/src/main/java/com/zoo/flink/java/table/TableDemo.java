@@ -1,13 +1,9 @@
 package com.zoo.flink.java.table;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
-import org.apache.flink.streaming.api.datastream.DataStreamSource;
-import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.table.api.Table;
 import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
-import org.apache.flink.table.api.EnvironmentSettings;
-import org.apache.flink.table.api.TableEnvironment;
+
 /**
  * @Author: JMD
  * @Date: 6/16/2023
@@ -22,7 +18,7 @@ public class TableDemo extends FlinkEnv {
         StreamTableEnvironment tableEnv = StreamTableEnvironment.create(env);
         // 将数据流转换成表
         Table eventTable = tableEnv.fromDataStream(arrayStream);
-        System.out.println(eventTable.getSchema());
+        System.out.println(eventTable.getResolvedSchema());
 
         System.out.println("eventTable: " + eventTable);
         // 用执行 SQL 的方式提取数据

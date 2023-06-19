@@ -1,14 +1,11 @@
 package com.zoo.flink.java.sink;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
+import com.zoo.flink.java.util.Event;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.connector.jdbc.JdbcConnectionOptions;
 import org.apache.flink.connector.jdbc.JdbcExecutionOptions;
 import org.apache.flink.connector.jdbc.JdbcSink;
 import org.apache.flink.connector.jdbc.JdbcStatementBuilder;
-
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 
 /**
  * @Author: JMD

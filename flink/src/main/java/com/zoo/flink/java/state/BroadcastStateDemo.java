@@ -1,6 +1,6 @@
 package com.zoo.flink.java.state;
 
-import com.zoo.flink.java.FlinkEnv;
+import com.zoo.flink.java.util.FlinkEnv;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.apache.flink.api.common.state.BroadcastState;

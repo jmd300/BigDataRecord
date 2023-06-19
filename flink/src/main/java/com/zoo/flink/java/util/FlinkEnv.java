@@ -1,6 +1,5 @@
-package com.zoo.flink.java;
+package com.zoo.flink.java.util;
 
-import com.zoo.flink.java.pojo.Event;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
@@ -9,7 +8,6 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
  * @Date: 5/11/2023
  */
 public class FlinkEnv {
-
     protected static StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
     protected static DataStreamSource<Event> arrayStream = env.fromElements(

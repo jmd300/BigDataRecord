@@ -1,9 +1,9 @@
 package com.zoo.flink.java.sink;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
+import com.zoo.flink.java.util.Event;
+
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.api.common.serialization.SimpleStringEncoder;
-import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.functions.sink.filesystem.StreamingFileSink;
 import org.apache.flink.streaming.api.functions.sink.filesystem.rollingpolicies.DefaultRollingPolicy;
 import org.apache.flink.core.fs.Path;

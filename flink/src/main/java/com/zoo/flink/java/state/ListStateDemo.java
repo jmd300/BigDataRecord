@@ -1,6 +1,6 @@
 package com.zoo.flink.java.state;
 
-import com.zoo.flink.java.FlinkEnv;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.state.ListState;
@@ -14,7 +14,7 @@ import org.apache.flink.util.Collector;
 /**
  * @Author: JMD
  * @Date: 6/5/2023
- *
+
  * 根据一个key进行两个流的join的程序，同Flink Sql
  * SELECT * FROM A INNER JOIN B WHERE A.id = B.id
  */

@@ -1,11 +1,10 @@
 package com.zoo.flink.java.table;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
+import com.zoo.flink.java.util.Event;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
-import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.table.api.Table;
 import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 import static org.apache.flink.table.api.Expressions.$;
@@ -13,21 +12,13 @@ import static org.apache.flink.table.api.Expressions.$;
 /**
  * @Author: JMD
  * @Date: 6/16/2023
+ *
+ * sql查询，输出中仅 insert 数据，不修改或者撤回
  */
 public class AppendQueryDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
         // 读取数据源，并分配时间戳、生成水位线
-        SingleOutputStreamOperator<Event> eventStream = env
-                .fromElements(
-                        new Event("Alice", "./home", 1000L),
-                        new Event("Bob", "./cart", 1000L),
-                        new Event("Alice", "./prod?id=1", 25 * 60 * 1000L),
-                        new Event("Alice", "./prod?id=4", 55 * 60 * 1000L),
-                        new Event("Bob", "./prod?id=5", 3600 * 1000L + 60 * 1000L),
-                        new Event("Cary", "./home", 3600 * 1000L + 30 * 60 * 1000L),
-                        new Event("Cary", "./prod?id=7", 3600 * 1000L + 59 * 60 * 1000L)
-                )
-                .assignTimestampsAndWatermarks(WatermarkStrategy.<Event>forMonotonousTimestamps()
+        SingleOutputStreamOperator<Event> eventStream = arrayStream.assignTimestampsAndWatermarks(WatermarkStrategy.<Event>forMonotonousTimestamps()
                         .withTimestampAssigner((SerializableTimestampAssigner<Event>) (element, recordTimestamp) -> element.timestamp)
                 );
         // 创建表环境

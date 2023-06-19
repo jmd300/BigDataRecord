@@ -1,6 +1,6 @@
-package com.zoo.flink.scala
+package com.zoo.flink.scala.util
 
-import com.zoo.flink.java.pojo.Event
+import com.zoo.flink.java.util.Event
 
 // 这里注意别引用错误的类
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment, createTypeInformation}

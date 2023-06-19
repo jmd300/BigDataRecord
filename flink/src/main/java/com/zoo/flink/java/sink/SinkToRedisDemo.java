@@ -1,7 +1,7 @@
 package com.zoo.flink.java.sink;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
+import com.zoo.flink.java.util.Event;
+import com.zoo.flink.java.util.FlinkEnv;
 import com.zoo.flink.java.source.ClickSource;
 import org.apache.flink.streaming.connectors.redis.RedisSink;
 import org.apache.flink.streaming.connectors.redis.common.config.FlinkJedisPoolConfig;

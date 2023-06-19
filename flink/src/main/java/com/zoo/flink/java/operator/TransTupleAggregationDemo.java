@@ -1,6 +1,6 @@
 package com.zoo.flink.java.operator;
 
-import com.zoo.flink.java.FlinkEnv;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 
@@ -30,7 +30,7 @@ public class TransTupleAggregationDemo extends FlinkEnv {
         stream.keyBy(r -> r.f0).min(1).print();
         stream.keyBy(r -> r.f0).min("f1").print();
 
-        /**
+        /*
          * minBy()：与 min()类似，在输入流上针对指定字段求最小值。不同的是， min()只计
          * 算指定字段的最小值，其他字段会保留最初第一个数据的值；而 minBy()则会返回包
          * 含字段最小值的整条数据。

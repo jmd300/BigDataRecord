@@ -1,6 +1,6 @@
 package com.zoo.flink.scala.sink
 
-import com.zoo.flink.scala.FlinkEnv
+import com.zoo.flink.scala.util.FlinkEnv
 import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer
 

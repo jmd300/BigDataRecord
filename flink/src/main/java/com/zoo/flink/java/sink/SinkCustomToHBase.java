@@ -1,6 +1,6 @@
 package com.zoo.flink.java.sink;
 
-import com.zoo.flink.java.FlinkEnv;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.streaming.api.functions.sink.RichSinkFunction;
 import org.apache.flink.configuration.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;

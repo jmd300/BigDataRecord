@@ -1,4 +1,4 @@
-package com.zoo.flink.java.pojo;
+package com.zoo.flink.java.util;
 
 import java.sql.Timestamp;
 import java.util.Objects;

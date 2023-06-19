@@ -1,9 +1,9 @@
 package com.zoo.flink.java.operator;
 
-import com.zoo.flink.java.FlinkEnv;
+import com.zoo.flink.java.util.Event;
+import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.streaming.api.datastream.KeyedStream;
-import com.zoo.flink.java.pojo.Event;
 
 /**
  * @Author: JMD

@@ -1,4 +1,4 @@
-package com.zoo.flink.java.wordcount;
+package com.zoo.flink.java.example.wordcount;
 
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.ExecutionEnvironment;
@@ -13,12 +13,9 @@ import org.apache.flink.util.Collector;
  * @Author: JMD
  * @Date: 3/16/2023
  * 批处理接口运行word count
- * 大数据技术之 Flink 2.3.1
- */
 
-/**
  * 命令行提交参数
- *  bin/flink run -m hadoop102:8081 -c com.zoo.flink.wordcount.BatchWordCount ~/BigDataRecord-jar-with-dependencies.jar ../hadoop-3.1.3/wcinput hdfs://hadoop102:8020/out
+ * bin/flink run -m hadoop102:8081 -c com.zoo.flink.wordcount.BatchWordCount ~/BigDataRecord-jar-with-dependencies.jar ../hadoop-3.1.3/wcinput hdfs://hadoop102:8020/out
  */
 public class BatchWordCount {
     public static void main(String[] args) throws Exception {
@@ -50,7 +47,8 @@ public class BatchWordCount {
                 .writeAsCsv(args[1], WriteMode.OVERWRITE).setParallelism(2);
 
         // 可以直接链式编程
-/*        env.readTextFile("input/words.txt")
+        /*
+        env.readTextFile("input/words.txt")
                 .flatMap((String line, Collector<Tuple2<String, Long>> out) -> {
                     String[] words = line.split(" ");
                     for (String word : words) {
@@ -59,7 +57,8 @@ public class BatchWordCount {
                 })
                 .returns(Types.TUPLE(Types.STRING, Types.LONG))
                 .groupBy(0).sum(1)
-                .print();*/
+                .print();
+                */
         env.execute();
     }
 }

@@ -1,7 +1,7 @@
 package com.zoo.flink.java.core;
 
-import com.zoo.flink.java.FlinkEnv;
-import com.zoo.flink.java.pojo.Event;
+import com.zoo.flink.java.util.Event;
+import com.zoo.flink.java.util.FlinkEnv;
 import com.zoo.flink.java.source.ClickSource;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
@@ -28,7 +28,7 @@ public class LatenessWaterMarkDemo extends FlinkEnv {
                         })
                 )
                 .print();
-        /**
+        /*
          * 有序流的水位线生成器本质上和乱序流是一样的，相当于延迟设为 0 的乱序流水 位线生成器，两者完全等同：
          * WatermarkStrategy.forMonotonousTimestamps()
          * WatermarkStrategy.forBoundedOutOfOrderness(Duration.ofSeconds(0))
