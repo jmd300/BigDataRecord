@@ -18,19 +18,10 @@ import org.apache.flink.table.api.TableEnvironment;
  */
 public class TableDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
-        // 读取数据源
-        SingleOutputStreamOperator<Event> eventDataStreamSource = env.fromElements(
-                new Event("Alice", "./home", 1000L),
-                new Event("Bob", "./cart", 1000L),
-                new Event("Alice", "./prod?id=1", 5 * 1000L),
-                new Event("Cary", "./home", 60 * 1000L),
-                new Event("Bob", "./prod?id=3", 90 * 1000L),
-                new Event("Alice", "./prod?id=7", 105 * 1000L)
-        );
         // 获取表环境
         StreamTableEnvironment tableEnv = StreamTableEnvironment.create(env);
         // 将数据流转换成表
-        Table eventTable = tableEnv.fromDataStream(eventDataStreamSource);
+        Table eventTable = tableEnv.fromDataStream(arrayStream);
         System.out.println(eventTable.getSchema());
 
         System.out.println("eventTable: " + eventTable);
