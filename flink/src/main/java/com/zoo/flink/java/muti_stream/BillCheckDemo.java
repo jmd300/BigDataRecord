@@ -31,7 +31,7 @@ public class BillCheckDemo extends FlinkEnv {
 
         // 来自第三方支付平台的支付日志
         SingleOutputStreamOperator<Tuple4<String, String, String, Long>>
-                thirdpartStream = env.fromElements(
+                thirdPartStream = env.fromElements(
                 Tuple4.of("order-1", "third-party", "success", 3000L),
                 Tuple4.of("order-3", "third-party", "success", 4000L)
         ).assignTimestampsAndWatermarks(WatermarkStrategy.<Tuple4<String, String, String, Long>>forMonotonousTimestamps()
@@ -45,7 +45,7 @@ public class BillCheckDemo extends FlinkEnv {
                                                        }));
 
         // 检测同一支付单在两条流中是否匹配，不匹配就报警
-        appStream.connect(thirdpartStream)
+        appStream.connect(thirdPartStream)
                 .keyBy(data -> data.f0, data -> data.f0)
                 .process(new OrderMatchResult())
                 .print();
@@ -70,7 +70,7 @@ public class BillCheckDemo extends FlinkEnv {
         public void processElement1(Tuple3<String, String, Long> value, Context ctx, Collector<String> out) throws Exception {
             // 看另一条流中事件是否来过
             if (thirdPartyEventState.value() != null){
-                out.collect(" 对 账 成 功 ： " + value + " " + thirdPartyEventState.value());
+                out.collect("对账成功 ： " + value + " " + thirdPartyEventState.value());
                 // 清空状态
                 thirdPartyEventState.clear();
             } else {

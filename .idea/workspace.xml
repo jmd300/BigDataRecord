@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/muti_stream/BillCheckDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/muti_stream/BillCheckDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/RichFunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/RichMapFunctionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransFilterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransFilterDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +115,7 @@
       <recent name="com.zoo.flink.scala.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimitiveTypeStreams">
+  <component name="RunManager" selected="Application.RichFlatMapFunctionDemo (5)">
     <configuration name="BatchWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zoo.flink.javawordcount.BatchWordCount" />
       <module name="flink" />
@@ -119,34 +123,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zoo.flink.javawordcount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="D:/program/jdk/jdk17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.stream.CreateStream" />
-      <module name="lang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.lang.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DownStreamCollectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.collecting.DownStreamCollectors" />
-      <module name="lang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.lang.collecting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.stream.OptionalDemo" />
-      <module name="lang" />
+    <configuration name="RichFlatMapFunctionDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.operator.RichFlatMapFunctionDemo" />
+      <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.lang.stream.*" />
+          <option name="PATTERN" value="com.zoo.flink.java.operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveTypeStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.stream.PrimitiveTypeStreams" />
-      <module name="lang" />
+    <configuration name="RichFlatMapFunctionDemo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.operator.RichFlatMapFunctionDemo" />
+      <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.lang.stream.*" />
+          <option name="PATTERN" value="com.zoo.flink.java.operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +164,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.stream.UseStream" />
-      <module name="lang" />
+    <configuration name="RichFlatMapFunctionDemo (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.operator.RichFlatMapFunctionDemo" />
+      <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.lang.stream.*" />
+          <option name="PATTERN" value="com.zoo.flink.java.operator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RichFlatMapFunctionDemo (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.operator.RichFlatMapFunctionDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.java.operator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RichFlatMapFunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.operator.RichFlatMapFunctionDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.java.operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,20 +234,20 @@
       <item itemvalue="Application.BatchWordCount" />
       <item itemvalue="Application.MetaSpaceOomExample" />
       <item itemvalue="Application.WordCount" />
-      <item itemvalue="Application.DownStreamCollectors" />
-      <item itemvalue="Application.OptionalDemo" />
-      <item itemvalue="Application.PrimitiveTypeStreams" />
-      <item itemvalue="Application.UseStream" />
-      <item itemvalue="Application.CreateStream" />
+      <item itemvalue="Application.RichFlatMapFunctionDemo" />
+      <item itemvalue="Application.RichFlatMapFunctionDemo (2)" />
+      <item itemvalue="Application.RichFlatMapFunctionDemo (3)" />
+      <item itemvalue="Application.RichFlatMapFunctionDemo (4)" />
+      <item itemvalue="Application.RichFlatMapFunctionDemo (5)" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimitiveTypeStreams" />
-        <item itemvalue="Application.DownStreamCollectors" />
-        <item itemvalue="Application.OptionalDemo" />
-        <item itemvalue="Application.UseStream" />
-        <item itemvalue="Application.CreateStream" />
+        <item itemvalue="Application.RichFlatMapFunctionDemo (5)" />
+        <item itemvalue="Application.RichFlatMapFunctionDemo (4)" />
+        <item itemvalue="Application.RichFlatMapFunctionDemo (3)" />
+        <item itemvalue="Application.RichFlatMapFunctionDemo" />
+        <item itemvalue="Application.RichFlatMapFunctionDemo (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +297,8 @@
       <workItem from="1686104607140" duration="598000" />
       <workItem from="1686105880879" duration="1256000" />
       <workItem from="1686196185769" duration="25660000" />
-      <workItem from="1686724470523" duration="3114000" />
+      <workItem from="1686724470523" duration="13466000" />
+      <workItem from="1687137101626" duration="4064000" />
     </task>
     <servers />
   </component>

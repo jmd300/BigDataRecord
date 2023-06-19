@@ -7,6 +7,8 @@ import org.apache.flink.api.common.functions.FilterFunction;
 /**
  * @Author: JMD
  * @Date: 5/11/2023
+ *
+ * Stream 转换函数 filter 使用示例
  */
 public class TransFilterDemo extends FlinkEnv {
     public static class UserFilter implements FilterFunction<Event> {
