@@ -10,13 +10,13 @@ import java.util.concurrent.TimeUnit
 /**
  * Author: JMD
  * Date: 5/12/2023
+ * 如果我们想要自定义并行的数据源的话，需要使用 ParallelSourceFunction，
  */
 
 object ParallelSourceExample extends FlinkEnv{
   class CustomSource extends ParallelSourceFunction[(String, Int)] {
     private var running = true
     private val random = new Random
-
 
     def cancel(): Unit = running = false
 

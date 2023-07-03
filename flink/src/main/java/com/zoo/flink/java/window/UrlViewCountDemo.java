@@ -45,8 +45,7 @@ public class UrlViewCountDemo extends FlinkEnv {
     }
 
     // 自定义增量聚合函数，来一条数据就加一
-    public static class UrlViewCountAgg implements AggregateFunction<Event, Long,
-            Long> {
+    public static class UrlViewCountAgg implements AggregateFunction<Event, Long, Long> {
         @Override
         public Long createAccumulator() {
             return 0L;

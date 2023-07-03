@@ -12,6 +12,13 @@ import java.util.concurrent.TimeUnit;
  * @Date: 5/10/2023
  */
 public class ClickSource implements SourceFunction<Event> {
+    public ClickSource(){
+
+    }
+    int num;
+    public ClickSource(int num){
+        this.num = num;
+    }
     // 声明一个布尔变量，作为控制数据生成的标识位
     private Boolean running = true;
     Random random = new Random(); // 在指定的数据集中随机选取数据
@@ -21,7 +28,8 @@ public class ClickSource implements SourceFunction<Event> {
         String[] users = {"Mary", "Alice", "Bob", "Cary"};
         String[] urls = {"./home", "./cart", "./fav", "./prod?id=1", "./prod?id=2"};
 
-        while (running) {
+        int count = 0;
+        while (running && num > count) {
             sourceContext.collect(new Event(
                     users[random.nextInt(users.length)],
                     urls[random.nextInt(urls.length)],

@@ -10,7 +10,7 @@ import org.apache.flink.api.common.functions.FilterFunction;
  *
  * Stream 转换函数 filter 使用示例
  */
-public class TransFilterDemo extends FlinkEnv {
+public class FilterDemo extends FlinkEnv {
     public static class UserFilter implements FilterFunction<Event> {
         @Override
         public boolean filter(Event e) throws Exception {

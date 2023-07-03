@@ -5,9 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/cep/LoginFailDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/cep/LoginFailDetect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/cep/OrderTimeoutDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/cep/OrderTimeoutDetect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/core/TriggerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/core/TriggerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/example/wordcount/BatchWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/example/wordcount/BatchWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransFilterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/FilterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransFlatmapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/FlatmapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransKeyByDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/KeyByDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/MapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransReduceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/ReduceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransTupleAggregationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TupleAggregationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/process/TopNDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/process/TopNDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkCustomToHBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkCustomToHBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/source/ClickSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/source/ClickSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/state/ValueStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/state/ValueStateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/window/UrlViewCountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/window/UrlViewCountDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/core/example/wordcount/BatchWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/core/example/wordcount/BatchWordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/core/example/wordcount/StreamWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/core/example/wordcount/StreamWordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/RichFunctionDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/RichMapFunctionDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransFilterDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/FilterDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransFlatmapDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/FlatmapDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransKeyByDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/KeyByDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransMapDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/MapDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransReduceDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/ReduceDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransTupleAggregationDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TupleAggregationDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/sink/SinkToFileDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/sink/SinkToTxtFileDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/KafkaSourceDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/KafkaSourceDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/ParallelSourceExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/ParallelSourceExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/SourceDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/SourceDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink_out/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink_out/2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,27 +94,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Y:/github/BigDataRecord/flink/src/main/scala/com/zoo/flink/scala/core/example&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3505747&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;6ce80d8ef01f5e98f941f200bba3baee&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "Y:/github/BigDataRecord/flink/src/main/scala/com/zoo/flink/scala/core/example",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3505747",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "6ce80d8ef01f5e98f941f200bba3baee",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Y:\github\BigDataRecord\flink\src\main\scala\com\zoo\flink\scala\core\example" />
@@ -115,7 +144,20 @@
       <recent name="com.zoo.flink.scala.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NFADemo">
+  <component name="RunManager" selected="Application.ArrayToArrayBuffer">
+    <configuration name="ArrayToArrayBuffer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.scala.test.ArrayToArrayBuffer" />
+      <module name="lang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.lang.scala.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BatchWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zoo.flink.javawordcount.BatchWordCount" />
       <module name="flink" />
@@ -123,6 +165,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zoo.flink.javawordcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomPartitionDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.scala.operator.CustomPartitionDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.scala.operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,60 +193,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NFADemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.cep.NFADemo" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.cep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTimeoutDetect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.cep.OrderTimeoutDetect" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.cep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RichFlatMapFunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.old.operator.RichFlatMapFunctionDemo" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.old.operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RichFlatMapFunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.old.operator.RichFlatMapFunctionDemo" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.old.operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinkToFileDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.scala.sink.SinkToFileDemo" />
+    <configuration name="SinkToParquetFileDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.scala.sink.SinkToParquetFileDemo" />
       <module name="flink" />
       <extension name="coverage">
         <pattern>
@@ -203,25 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopNDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.old.table.TopNDemo" />
+    <configuration name="SourceCustom" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.scala.source.SourceCustom" />
       <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.old.table.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowTopNDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.old.table.WindowTopNDemo" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.old.table.*" />
+          <option name="PATTERN" value="com.zoo.flink.scala.source.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,6 +225,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zoo.spark.batch.rdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.zoo.flink.java.sink.SinkToParquetFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.sink.SinkToParquetFileDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.java.sink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,20 +263,20 @@
       <item itemvalue="Application.BatchWordCount" />
       <item itemvalue="Application.MetaSpaceOomExample" />
       <item itemvalue="Application.WordCount" />
-      <item itemvalue="Application.NFADemo" />
-      <item itemvalue="Application.OrderTimeoutDetect" />
-      <item itemvalue="Application.SinkToFileDemo" />
-      <item itemvalue="Application.TopNDemo" />
-      <item itemvalue="Application.WindowTopNDemo" />
+      <item itemvalue="Application.ArrayToArrayBuffer" />
+      <item itemvalue="Application.CustomPartitionDemo" />
+      <item itemvalue="Application.SinkToParquetFileDemo" />
+      <item itemvalue="Application.SourceCustom" />
+      <item itemvalue="Application.com.zoo.flink.java.sink.SinkToParquetFileDemo" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NFADemo" />
-        <item itemvalue="Application.OrderTimeoutDetect" />
-        <item itemvalue="Application.SinkToFileDemo" />
-        <item itemvalue="Application.WindowTopNDemo" />
-        <item itemvalue="Application.TopNDemo" />
+        <item itemvalue="Application.ArrayToArrayBuffer" />
+        <item itemvalue="Application.com.zoo.flink.java.sink.SinkToParquetFileDemo" />
+        <item itemvalue="Application.SinkToParquetFileDemo" />
+        <item itemvalue="Application.CustomPartitionDemo" />
+        <item itemvalue="Application.SourceCustom" />
       </list>
     </recent_temporary>
   </component>
@@ -326,12 +329,25 @@
       <workItem from="1686724470523" duration="13466000" />
       <workItem from="1687137101626" duration="15911000" />
       <workItem from="1687222908059" duration="3374000" />
-      <workItem from="1687239532054" duration="4356000" />
+      <workItem from="1687239532054" duration="12697000" />
+      <workItem from="1687741480825" duration="19393000" />
+      <workItem from="1687850259311" duration="4094000" />
+      <workItem from="1687930933900" duration="13204000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

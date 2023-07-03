@@ -11,7 +11,7 @@ import org.apache.flink.api.java.tuple.Tuple2;
  * @Author: JMD
  * @Date: 5/11/2023
  */
-public class TransReduceDemo extends FlinkEnv {
+public class ReduceDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
         // 得到当前访问量最大的用户
         env.addSource(new ClickSource())

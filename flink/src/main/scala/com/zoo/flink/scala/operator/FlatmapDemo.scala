@@ -10,7 +10,7 @@ import org.apache.flink.util.Collector
  * Author: JMD
  * Date: 5/11/2023
  */
-object TransFlatmapDemo extends FlinkEnv{
+object FlatmapDemo extends FlinkEnv{
   class MyFlatMap extends FlatMapFunction[Event, String] {
     @throws[Exception]
     override def flatMap(value: Event, out: Collector[String]): Unit = {
@@ -23,10 +23,10 @@ object TransFlatmapDemo extends FlinkEnv{
   }
 
   def main(args: Array[String]): Unit = {
-    // 自定义实现类// 自定义实现类
-    arrayStream.flatMap(new TransFlatmapDemo.MyFlatMap).print
+    // 自定义实现类
+    arrayStream.flatMap(new FlatmapDemo.MyFlatMap).print
 
-    // lambda// lambda
+    // lambda
     arrayStream.flatMap((value: Event, out: Collector[String]) => {
       value.user match {
         case "Mary" => out.collect(value.user)

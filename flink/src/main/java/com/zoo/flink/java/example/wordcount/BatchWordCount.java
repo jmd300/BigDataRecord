@@ -6,7 +6,6 @@ import org.apache.flink.api.java.operators.AggregateOperator;
 import org.apache.flink.api.java.operators.DataSource;
 import org.apache.flink.api.java.operators.FlatMapOperator;
 import org.apache.flink.api.java.tuple.Tuple2;
-import org.apache.flink.core.fs.FileSystem.WriteMode;
 import org.apache.flink.util.Collector;
 
 /**
@@ -23,7 +22,7 @@ public class BatchWordCount {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
         // 从文件读取数据 按行读取(存储的元素就是每行的文本)
-        DataSource<String> lineDs = env.readTextFile(args[0]).setParallelism(1);
+        DataSource<String> lineDs = env.readTextFile("input/words.txt").setParallelism(1);
 
         // 转换数据格式
         FlatMapOperator<String, Tuple2<String, Long>> wordAndOne = lineDs.flatMap((String line, Collector<Tuple2<String, Long>> out) -> {
@@ -39,12 +38,12 @@ public class BatchWordCount {
         AggregateOperator<Tuple2<String, Long>> sum = wordAndOne.setParallelism(2).groupBy(0).sum(1);
 
         // 打印结果
-        // sum.print();
-        sum.map(e -> {
+        sum.print();
+        /*sum.map(e -> {
             System.out.println((e.f0 + "===" +  e.f1));
             return e;
         }).returns(Types.TUPLE(Types.STRING, Types.LONG))
-                .writeAsCsv(args[1], WriteMode.OVERWRITE).setParallelism(2);
+                .writeAsCsv(args[1], WriteMode.OVERWRITE).setParallelism(2);*/
 
         // 可以直接链式编程
         /*
@@ -59,6 +58,6 @@ public class BatchWordCount {
                 .groupBy(0).sum(1)
                 .print();
                 */
-        env.execute();
+        // env.execute();
     }
 }

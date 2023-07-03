@@ -13,7 +13,7 @@ import org.apache.flink.streaming.api.datastream.DataStreamSource;
  * 的事件到下游算子。对于无界流来说，这些状态是永远不会被清除的，所以我们使用聚合算子，
  * 应该只用在含有有限个 key 的数据流上。
  */
-public class TransTupleAggregationDemo extends FlinkEnv {
+public class TupleAggregationDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
         DataStreamSource<Tuple2<String, Integer>> stream = env.fromElements(
                 Tuple2.of("a", 1),

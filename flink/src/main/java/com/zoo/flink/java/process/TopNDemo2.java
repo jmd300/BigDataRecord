@@ -106,6 +106,7 @@ public class TopNDemo2 extends FlinkEnv {
             // 将 count 数据添加到列表状态中，保存起来
             urlViewCountListState.add(value);
             // 注册 window end + 1ms 后的定时器，等待所有数据到齐开始排序
+            // 可以不用加1，因为窗口内数据的时间戳是小于窗口结束时间戳的
             ctx.timerService().registerEventTimeTimer(ctx.getCurrentKey() + 1);
         }
 
@@ -119,12 +120,8 @@ public class TopNDemo2 extends FlinkEnv {
             // 清空状态，释放资源
             urlViewCountListState.clear();
             // 排序
-            urlViewCountArrayList.sort(new Comparator<UrlViewCount>() {
-                @Override
-                public int compare(UrlViewCount o1, UrlViewCount o2) {
-                    return o2.count.intValue() - o1.count.intValue();
-                }
-            });
+            urlViewCountArrayList.sort((o1, o2) -> o2.count.intValue() - o1.count.intValue());
+
             // 取前两名，构建输出结果
             StringBuilder result = new StringBuilder();
             result.append("========================================\n");

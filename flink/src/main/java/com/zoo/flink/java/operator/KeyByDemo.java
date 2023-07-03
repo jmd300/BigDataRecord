@@ -9,7 +9,7 @@ import org.apache.flink.streaming.api.datastream.KeyedStream;
  * @Author: JMD
  * @Date: 5/11/2023
  */
-public class TransKeyByDemo extends FlinkEnv {
+public class KeyByDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
         // 使用 Lambda 表达式
         KeyedStream<Event, String> keyedStream = arrayStream.keyBy(e -> e.user);

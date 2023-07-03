@@ -13,10 +13,12 @@ import java.util.concurrent.TimeUnit
  * Author: JMD
  * Date: 5/12/2023
  */
-object SinkToFileDemo extends FlinkEnv{
+object SinkToTxtFileDemo extends FlinkEnv{
   def main(args: Array[String]): Unit = {
     env.setParallelism(4)
 
+    // 行编码： StreamingFileSink.forRowFormat（basePath， rowEncoder）。
+    // 批量编码： StreamingFileSink.forBulkFormat（basePath， bulkWriterFactory）。
     val fileSink: StreamingFileSink[String] = StreamingFileSink.forRowFormat[String](new Path("./output"),
       new SimpleStringEncoder[String]("UTF-8"))
       .withRollingPolicy(
@@ -27,8 +29,9 @@ object SinkToFileDemo extends FlinkEnv{
       )
       .build()
 
-    // 将 Event 转换成 String 写入文件// 将 Event 转换成 String 写入文件
+    // 将 Event 转换成 String 写入文件
     arrayStream.map(_.toString).addSink(fileSink)
+
     env.execute
   }
 }

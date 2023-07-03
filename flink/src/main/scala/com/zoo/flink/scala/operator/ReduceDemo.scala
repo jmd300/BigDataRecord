@@ -10,9 +10,9 @@ import org.apache.flink.streaming.api.scala.createTypeInformation
  * Author: JMD
  * Date: 5/12/2023
  */
-object TransReduceDemo extends FlinkEnv{
+object ReduceDemo extends FlinkEnv{
   def main(args: Array[String]): Unit = {
-    env.addSource(new ClickSource).map((e: Event) => (e.user, 1L))
+    env.addSource(new ClickSource()).map((e: Event) => (e.user, 1L))
       .keyBy(_._1)
       // 分布式计算多个key的count
       .reduce(new ReduceFunction[(String, Long)] {

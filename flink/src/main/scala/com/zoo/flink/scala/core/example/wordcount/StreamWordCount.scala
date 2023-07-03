@@ -9,9 +9,7 @@ import org.apache.flink.streaming.api.scala._
  */
 object StreamWordCount extends FlinkEnv{
   def main(args: Array[String]): Unit = {
-    val lineDs: DataStream[String] = env.readTextFile(args(0)).setParallelism(1)
-
-    val inputDataStream: DataStream[String] = env.readTextFile("/path/to/your/file")
+    val inputDataStream: DataStream[String] = env.readTextFile("input/words.txt")
 
     // 根据空格对数据进行切分，统计每个单词出现的次数
     val resultDataStream = inputDataStream
@@ -20,7 +18,6 @@ object StreamWordCount extends FlinkEnv{
       .keyBy(_._1)
       .sum(1)
 
-    // 输出结果
     resultDataStream.print()
 
     env.execute()

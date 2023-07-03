@@ -13,14 +13,8 @@ object SourceDemo extends FlinkEnv{
     val clicks = Array[Event](new Event("Mary", "./home", 1000L), new Event("Bob", "./cart", 2000L))
 
     // 从集合中获取DataStream// 从集合中获取DataStream
-    val stream1 = env.fromCollection(clicks)
-
-    val stream2 = env.fromElements(
-      new Event("Mary", "./home", 1000L),
-      new Event("Bob", "./cart", 2000L))
-
-    stream1.print
-    stream2.print
+    val stream = env.fromCollection(clicks)
+    stream.print
 
     /**
      * 参数可以是目录，也可以是文件；

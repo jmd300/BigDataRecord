@@ -3,14 +3,14 @@ package com.zoo.flink.scala.operator
 import com.zoo.flink.java.util.Event
 import com.zoo.flink.scala.util.FlinkEnv
 import org.apache.flink.api.common.functions.MapFunction
-import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment
+import org.apache.flink.api.scala.createTypeInformation
 
 /**
  * Author: JMD
  * Date: 5/11/2023
  */
 
-object TransMapDemo extends FlinkEnv{
+object MapDemo extends FlinkEnv{
   class UserExtractor extends MapFunction[Event, String] {
     @throws[Exception]
     override def map(e: Event): String = e match {
@@ -20,9 +20,6 @@ object TransMapDemo extends FlinkEnv{
   }
 
   def main(args: Array[String]): Unit = {
-    val env = StreamExecutionEnvironment.getExecutionEnvironment
-    env.setParallelism(1)
-
     val stream = env.fromElements(
       new Event("Mary", "./home", 1000L),
       new Event("Bob", "./cart", 2000L))

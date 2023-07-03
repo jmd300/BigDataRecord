@@ -8,7 +8,7 @@ import org.apache.flink.api.common.functions.MapFunction;
  * @Author: JMD
  * @Date: 5/11/2023
  */
-public class TransMapDemo extends FlinkEnv {
+public class MapDemo extends FlinkEnv {
     public static class UserExtractor implements MapFunction<Event, String> {
         @Override
         public String map(Event e) throws Exception {

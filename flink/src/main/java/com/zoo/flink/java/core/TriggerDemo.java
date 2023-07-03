@@ -28,8 +28,7 @@ import org.apache.flink.util.Collector;
  */
 public class TriggerDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
-        env
-                .addSource(new ClickSource())
+        env.addSource(new ClickSource())
                 .assignTimestampsAndWatermarks(
                         WatermarkStrategy.<Event>forMonotonousTimestamps()
                                 .withTimestampAssigner((SerializableTimestampAssigner<Event>) (event, l) -> event.timestamp)
@@ -59,9 +58,10 @@ public class TriggerDemo extends FlinkEnv {
     public static class MyTrigger extends Trigger<Event, TimeWindow> {
         @Override
         public TriggerResult onElement(Event event, long l, TimeWindow timeWindow, TriggerContext triggerContext) throws Exception {
-            ValueState<Boolean> isFirstEvent = triggerContext.getPartitionedState(
-                    new ValueStateDescriptor<Boolean>("first-event", Types.BOOLEAN));
+            ValueState<Boolean> isFirstEvent = triggerContext.getPartitionedState(new ValueStateDescriptor<Boolean>("first-event", Types.BOOLEAN));
+
             if (isFirstEvent.value() == null) {
+                // 确保在一个时间窗口范围内，每1s计算并输出一次结果
                 for (long i = timeWindow.getStart(); i < timeWindow.getEnd(); i = i + 1000L) {
                     triggerContext.registerEventTimeTimer(i);
                 }

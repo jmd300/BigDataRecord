@@ -7,7 +7,7 @@ import org.apache.flink.streaming.api.scala.createTypeInformation
  * Author: JMD
  * Date: 5/11/2023
  */
-object TransTupleAggregationDemo extends FlinkEnv{
+object TupleAggregationDemo extends FlinkEnv{
   def main(args: Array[String]): Unit = {
     val stream = env.fromElements(("a", 1), ("a", 3), ("b", 3), ("b", 4))
 

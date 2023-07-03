@@ -3,6 +3,7 @@ package com.zoo.flink.java.cep;
 import com.zoo.flink.java.util.FlinkEnv;
 
 import com.zoo.flink.java.util.OrderEvent;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.typeinfo.Types;
@@ -24,6 +25,7 @@ import java.util.Map;
  * @Author: JMD
  * @Date: 6/20/2023
  */
+
 public class OrderTimeoutDetect extends FlinkEnv {
     static OutputTag<String> timeoutTag = new OutputTag<String>("timeout", Types.STRING);
 

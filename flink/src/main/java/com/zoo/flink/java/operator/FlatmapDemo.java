@@ -9,7 +9,7 @@ import org.apache.flink.util.Collector;
  * @Author: JMD
  * @Date: 5/11/2023
  */
-public class TransFlatmapDemo extends FlinkEnv {
+public class FlatmapDemo extends FlinkEnv {
     public static class MyFlatMap implements FlatMapFunction<Event, String> {
         @Override
         public void flatMap(Event value, Collector<String> out) throws Exception {
