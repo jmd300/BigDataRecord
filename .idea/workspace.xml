@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/table/WindowTopNDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/table/WindowTopNDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/KafkaSourceDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/KafkaSourceDemo.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +114,7 @@
       <recent name="com.zoo.flink.scala.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CumulateWindowExample">
+  <component name="RunManager" selected="Application.WindowTopNDemo">
     <configuration name="ArrayToArrayBuffer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.zoo.lang.scala.test.ArrayToArrayBuffer" />
       <module name="lang" />
@@ -161,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinkToParquetFileDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.scala.sink.SinkToParquetFileDemo" />
+    <configuration name="TableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.table.TableDemo" />
       <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.flink.scala.sink.*" />
+          <option name="PATTERN" value="com.zoo.flink.java.table.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,8 +176,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.table.TableDemo" />
+    <configuration name="WindowTopNDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.table.WindowTopNDemo" />
       <module name="flink" />
       <extension name="coverage">
         <pattern>
@@ -231,20 +233,20 @@
       <item itemvalue="Application.BatchWordCount" />
       <item itemvalue="Application.MetaSpaceOomExample" />
       <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.WindowTopNDemo" />
       <item itemvalue="Application.TableDemo" />
       <item itemvalue="Application.CumulateWindowExample" />
       <item itemvalue="Application.ArrayToArrayBuffer" />
-      <item itemvalue="Application.SinkToParquetFileDemo" />
       <item itemvalue="Application.com.zoo.flink.java.sink.SinkToParquetFileDemo" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WindowTopNDemo" />
         <item itemvalue="Application.CumulateWindowExample" />
         <item itemvalue="Application.TableDemo" />
         <item itemvalue="Application.ArrayToArrayBuffer" />
         <item itemvalue="Application.com.zoo.flink.java.sink.SinkToParquetFileDemo" />
-        <item itemvalue="Application.SinkToParquetFileDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +306,7 @@
       <workItem from="1688432358547" duration="4725000" />
       <workItem from="1688606524117" duration="2768000" />
       <workItem from="1688715511670" duration="5170000" />
-      <workItem from="1688720981890" duration="805000" />
+      <workItem from="1688720981890" duration="4420000" />
     </task>
     <servers />
   </component>

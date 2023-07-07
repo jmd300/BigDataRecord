@@ -36,6 +36,7 @@ public class WindowTopNDemo extends FlinkEnv {
                 WatermarkStrategy.<Event>forMonotonousTimestamps()
                         .withTimestampAssigner((SerializableTimestampAssigner<Event>) (element, recordTimestamp) -> element.timestamp)
         );
+
         Table eventTable = tableEnv.fromDataStream(
                 eventStream,
                 $("user"),
@@ -43,6 +44,7 @@ public class WindowTopNDemo extends FlinkEnv {
                 // 将 timestamp 指定为事件时间，并命名为 ts
                 $("timestamp").rowtime().as("ts")
         );
+
         // 为方便在 SQL 中引用，在环境中注册表 EventTable
         tableEnv.createTemporaryView("EventTable", eventTable);
 

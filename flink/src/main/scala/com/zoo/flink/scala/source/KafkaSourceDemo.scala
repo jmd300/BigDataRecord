@@ -12,6 +12,7 @@ import java.util.Properties
  * Date: 5/12/2023
  */
 object KafkaSourceDemo extends FlinkEnv{
+  @throws[Exception]
   def main(args: Array[String]): Unit = {
     val properties: Properties = new Properties
     properties.setProperty("bootstrap.servers", "hadoop102:9092")
