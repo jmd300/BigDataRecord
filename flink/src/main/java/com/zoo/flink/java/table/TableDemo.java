@@ -21,6 +21,7 @@ public class TableDemo extends FlinkEnv {
         System.out.println(eventTable.getResolvedSchema());
 
         System.out.println("eventTable: " + eventTable);
+
         // 用执行 SQL 的方式提取数据
         Table visitTable = tableEnv.sqlQuery("select url, user from " + eventTable);
 

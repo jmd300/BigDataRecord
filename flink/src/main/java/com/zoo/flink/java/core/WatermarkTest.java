@@ -4,7 +4,7 @@ import com.zoo.flink.java.util.Event;
 import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
-import org.apache.flink.api.common.functions.MapFunction;;
+import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.streaming.api.functions.windowing.ProcessWindowFunction;
 import org.apache.flink.streaming.api.windowing.assigners.TumblingEventTimeWindows;
 import org.apache.flink.streaming.api.windowing.time.Time;
@@ -15,7 +15,7 @@ import java.time.Duration;
 /**
  * @Author: JMD
  * @Date: 7/3/2023
- *
+
  * nc –lk 7777
  * Alice, ./home, 1000
  * Alice, ./cart, 2000

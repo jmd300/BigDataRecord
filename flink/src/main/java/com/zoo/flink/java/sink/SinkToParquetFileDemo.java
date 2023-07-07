@@ -16,6 +16,7 @@ public class SinkToParquetFileDemo extends FlinkEnv {
     public static void main(String[] args) throws Exception {
         DataStreamSource<Event> data = env.addSource(new ClickSource(10));
 
+
         StreamingFileSink<Event> sink = StreamingFileSink
                 .forBulkFormat(new Path("out/parquet"), ParquetAvroWriters.forReflectRecord(Event.class))
                 // withRollingPolicy

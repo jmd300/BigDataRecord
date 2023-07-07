@@ -7,36 +7,10 @@
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/cep/LoginFailDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/cep/LoginFailDetect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/cep/OrderTimeoutDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/cep/OrderTimeoutDetect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/core/TriggerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/core/TriggerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/example/wordcount/BatchWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/example/wordcount/BatchWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransFilterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/FilterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransFlatmapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/FlatmapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransKeyByDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/KeyByDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransReduceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/ReduceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TransTupleAggregationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/operator/TupleAggregationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/process/TopNDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/process/TopNDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkCustomToHBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkCustomToHBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/source/ClickSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/source/ClickSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/state/ValueStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/state/ValueStateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/window/UrlViewCountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/window/UrlViewCountDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/core/example/wordcount/BatchWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/core/example/wordcount/BatchWordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/core/example/wordcount/StreamWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/core/example/wordcount/StreamWordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/RichFunctionDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/RichMapFunctionDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransFilterDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/FilterDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransFlatmapDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/FlatmapDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransKeyByDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/KeyByDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransMapDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/MapDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransReduceDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/ReduceDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TransTupleAggregationDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/operator/TupleAggregationDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/sink/SinkToFileDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/sink/SinkToTxtFileDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/KafkaSourceDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/KafkaSourceDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/ParallelSourceExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/ParallelSourceExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/SourceDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/SourceDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink_out/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink_out/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/core/WatermarkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/core/WatermarkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkToParquetFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkToParquetFileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/table/TableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/table/TableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/src/main/scala/com/zoo/lang/scala/test/ArrayToArrayBuffer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lang/src/main/scala/com/zoo/lang/scala/test/ArrayToArrayBuffer.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,27 +68,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "Y:/github/BigDataRecord/flink/src/main/scala/com/zoo/flink/scala/core/example",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3505747",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "6ce80d8ef01f5e98f941f200bba3baee",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Y:/github/flink&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3505747&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6ce80d8ef01f5e98f941f200bba3baee&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Y:\github\BigDataRecord\flink\src\main\scala\com\zoo\flink\scala\core\example" />
@@ -144,7 +118,7 @@
       <recent name="com.zoo.flink.scala.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayToArrayBuffer">
+  <component name="RunManager" selected="Application.CumulateWindowExample">
     <configuration name="ArrayToArrayBuffer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.zoo.lang.scala.test.ArrayToArrayBuffer" />
       <module name="lang" />
@@ -172,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomPartitionDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.scala.operator.CustomPartitionDemo" />
+    <configuration name="CumulateWindowExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.window.CumulateWindowExample" />
       <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.flink.scala.operator.*" />
+          <option name="PATTERN" value="com.zoo.flink.java.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SourceCustom" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.scala.source.SourceCustom" />
+    <configuration name="TableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.table.TableDemo" />
       <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.flink.scala.source.*" />
+          <option name="PATTERN" value="com.zoo.flink.java.table.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,20 +237,20 @@
       <item itemvalue="Application.BatchWordCount" />
       <item itemvalue="Application.MetaSpaceOomExample" />
       <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.TableDemo" />
+      <item itemvalue="Application.CumulateWindowExample" />
       <item itemvalue="Application.ArrayToArrayBuffer" />
-      <item itemvalue="Application.CustomPartitionDemo" />
       <item itemvalue="Application.SinkToParquetFileDemo" />
-      <item itemvalue="Application.SourceCustom" />
       <item itemvalue="Application.com.zoo.flink.java.sink.SinkToParquetFileDemo" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CumulateWindowExample" />
+        <item itemvalue="Application.TableDemo" />
         <item itemvalue="Application.ArrayToArrayBuffer" />
         <item itemvalue="Application.com.zoo.flink.java.sink.SinkToParquetFileDemo" />
         <item itemvalue="Application.SinkToParquetFileDemo" />
-        <item itemvalue="Application.CustomPartitionDemo" />
-        <item itemvalue="Application.SourceCustom" />
       </list>
     </recent_temporary>
   </component>
@@ -333,6 +307,10 @@
       <workItem from="1687741480825" duration="19393000" />
       <workItem from="1687850259311" duration="4094000" />
       <workItem from="1687930933900" duration="13204000" />
+      <workItem from="1688432358547" duration="4725000" />
+      <workItem from="1688606524117" duration="2768000" />
+      <workItem from="1688715511670" duration="5170000" />
+      <workItem from="1688720981890" duration="570000" />
     </task>
     <servers />
   </component>

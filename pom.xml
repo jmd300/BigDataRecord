@@ -38,7 +38,7 @@
 
         <target.java.version>1.8</target.java.version>
 
-        <scala.version>2.12.15</scala.version>
+        <scala.version>2.12.10</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
 
 
