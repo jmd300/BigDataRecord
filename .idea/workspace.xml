@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/core/WatermarkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/core/WatermarkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkToParquetFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/sink/SinkToParquetFileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/table/TableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/table/TableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/scala/com/zoo/lang/scala/test/ArrayToArrayBuffer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lang/src/main/scala/com/zoo/lang/scala/test/ArrayToArrayBuffer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +304,7 @@
       <workItem from="1688432358547" duration="4725000" />
       <workItem from="1688606524117" duration="2768000" />
       <workItem from="1688715511670" duration="5170000" />
-      <workItem from="1688720981890" duration="570000" />
+      <workItem from="1688720981890" duration="805000" />
     </task>
     <servers />
   </component>
