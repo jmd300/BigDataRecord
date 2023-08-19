@@ -11,6 +11,7 @@ public class LoginEvent {
     public String userId;
     public String ipAddress;
     public String eventType;
+
     public Long timestamp;
 
     @Override

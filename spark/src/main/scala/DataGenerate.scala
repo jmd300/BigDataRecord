@@ -4,8 +4,8 @@ import utils.Function.createLocalSparkSessionAndSparkContext
 import scala.util.Random
 
 /**
- * @Author: JMD
- * @Date: 4/24/2023
+ * Author: JMD
+ * Date: 4/24/2023
  *
  * 在 Spark 中，当将 DataFrame 保存为 CSV 文件时，Spark 会在相同目录下生成一个以 .crc 结尾的文件。
  * 这个 .crc 文件是用来校验 CSV 文件完整性的。CRC 全称"Cyclic Redundancy Check"， 即循环冗余校验，它是一种数据校验方法，通常用于检测数据传输或储存中的错误。在 Spark 中，

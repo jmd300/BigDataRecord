@@ -2,7 +2,10 @@ package com.zoo.flink.java.table;
 
 import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.table.api.Table;
+import org.apache.flink.table.api.TableConfig;
 import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
+
+import java.time.Duration;
 
 /**
  * @Author: JMD
@@ -18,6 +21,12 @@ public class TableDemo extends FlinkEnv {
         StreamTableEnvironment tableEnv = StreamTableEnvironment.create(env);
         // 将数据流转换成表
         Table eventTable = tableEnv.fromDataStream(arrayStream);
+
+        // 获取表环境的配置
+        TableConfig tableConfig = tableEnv.getConfig();
+        // 配置状态保持时间
+        tableConfig.setIdleStateRetention(Duration.ofMinutes(60));
+
         System.out.println(eventTable.getResolvedSchema());
 
         System.out.println("eventTable: " + eventTable);

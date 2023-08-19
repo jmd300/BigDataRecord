@@ -59,6 +59,7 @@ public class NFADemo extends FlinkEnv {
             }
             // 基于当前状态，输入当前事件时跳转到下一状态
             State nextState = state.transition(event.eventType);
+
             if (nextState == State.Matched) {
                 // 如果检测到匹配的复杂事件，输出报警信息
                 out.collect(event.userId + " 连续三次登录失败");

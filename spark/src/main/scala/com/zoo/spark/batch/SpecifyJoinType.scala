@@ -1,14 +1,11 @@
 package com.zoo.spark.batch
 
-
-import org.apache.spark.SparkConf
-import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import utils.Function.createLocalSparkSessionAndSparkContext
 
 /**
- * @Author: JMD
- * @Date: 4/10/2023
+ * Author: JMD
+ * Date: 4/10/2023
  */
 object SpecifyJoinType{
   def main(args: Array[String]): Unit = {

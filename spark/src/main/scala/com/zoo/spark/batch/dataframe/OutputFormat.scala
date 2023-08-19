@@ -6,8 +6,8 @@ import utils.ArgsMap
 import utils.Function.createLocalSparkSessionAndSparkContext
 
 /**
- * @Author: JMD
- * @Date: 5/8/2023
+ * Author: JMD
+ * Date: 5/8/2023
  *
  * Parquet保存数据为Map， 有的博客说parquet不支持Map和Array，之前都用过，觉得不能啊！
  */

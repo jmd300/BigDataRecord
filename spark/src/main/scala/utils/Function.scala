@@ -4,8 +4,8 @@ import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 /**
- * @Author: JMD
- * @Date: 4/7/2023
+ * Author: JMD
+ * Date: 4/7/2023
  */
 object Function {
   /**
@@ -35,8 +35,12 @@ object Function {
   }
 
   def createLocalSparkSessionAndSparkContext(coreNum: Int = 2): (SparkSession, SparkContext) = {
+    /**
+     * 在使用 YARN 作为集群管理器时，Spark 会自动忽略 setMaster 的设置，并根据提交命令中的 --master yarn 进行配置。
+     */
     val conf = new SparkConf().setAppName("WordCount").setMaster(s"local[${coreNum.toString}]")
     val spark = SparkSession.builder().config(conf).getOrCreate()
+
     import spark.implicits._
     val sc = spark.sparkContext
     sc.setLogLevel("WARN")

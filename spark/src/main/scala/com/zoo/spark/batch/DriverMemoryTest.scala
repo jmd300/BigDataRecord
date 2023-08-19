@@ -8,8 +8,8 @@ import utils.Function.computeDataFrameSize
 import java.util.concurrent.TimeUnit
 
 /**
- * @Author: JMD
- * @Date: 4/7/2023
+ * Author: JMD
+ * Date: 4/7/2023
  */
 object DriverMemoryTest {
   def main(args: Array[String]): Unit = {

@@ -1,5 +1,5 @@
 package com.zoo.hive;
-/**
+/*
  * @Author: JMD
  * @Date: 5/5/2023
  * 参考博客：
@@ -13,7 +13,7 @@ import java.sql.*;
  * 运行确实很慢
  */
 public class HiveTest {
-    private static String driverName = "org.apache.hive.jdbc.HiveDriver";
+    private static final String driverName = "org.apache.hive.jdbc.HiveDriver";
     public static void main(String[] args) throws SQLException {
         try {
             Class.forName(driverName);
@@ -21,6 +21,7 @@ public class HiveTest {
             e.printStackTrace();
             System.exit(1);
         }
+        
         System.out.println("begin connection");
         Connection con = DriverManager.getConnection(
                 "jdbc:hive2://hadoop102:10000/default", "root", "admin");
@@ -47,7 +48,7 @@ public class HiveTest {
         while (res.next()) {
             System.out.println(res.getString(1) + "\t" + res.getString(2));
         }
-        sql = "insert into " + tableName + " values (42,\"hello\"),(48,\"world\")";
+        sql = "insert into " + tableName + " values (32,\"hello\"),(38,\"world\")";
         stmt.execute(sql);
 
         sql = "select * from " + tableName;
@@ -55,8 +56,7 @@ public class HiveTest {
         res = stmt.executeQuery(sql);
 
         while (res.next()) {
-            System.out.println(String.valueOf(res.getInt(1)) + "\t"
-                    + res.getString(2));
+            System.out.println(res.getInt(1) + "\t" + res.getString(2));
         }
 
         sql = "select count(1) from " + tableName;

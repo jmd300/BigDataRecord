@@ -1,13 +1,14 @@
 package com.zoo.spark
 
 import org.apache.spark.SparkConf
-import utils.Function.createLocalSparkSessionAndSparkContext
 
 import scala.collection.immutable.HashMap
 
+import utils.Function.createLocalSparkSessionAndSparkContext
+
 /**
- * @Author: JMD
- * @Date: 4/23/2023
+ * Author: JMD
+ * Date: 4/23/2023
  */
 object KryoDemo {
   private class MyClass {

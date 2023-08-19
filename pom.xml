@@ -20,6 +20,7 @@
         <module>scalaz</module>
         <module>kafka</module>
         <module>zio</module>
+        <module>zookeeper</module>
         <module>akka</module>
         <module>design</module>
         <!--<module>grpc</module>-->
@@ -37,8 +38,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <target.java.version>1.8</target.java.version>
-
-        <scala.version>2.12.10</scala.version>
+        <scala.version>2.12.17</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
 
 
@@ -124,36 +124,6 @@
 
         <!-- elasticsearch 依赖 2.x 的 log4j -->
         <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>2.8.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.8.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-library</artifactId>
-            <version>${scala.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-compiler</artifactId>
-            <version>${scala.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-reflect</artifactId>
-            <version>${scala.version}</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
@@ -177,6 +147,8 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
+                <!-- 3.3.0 是threadsafe的 -->
+                <version>3.3.0</version>
                 <configuration>
                     <descriptorRefs>
                         <!--给jar包起的别名-->

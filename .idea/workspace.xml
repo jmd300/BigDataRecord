@@ -5,9 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/remote-targets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/table/WindowTopNDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/table/WindowTopNDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/KafkaSourceDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/com/zoo/flink/scala/source/KafkaSourceDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/com/zoo/database/RealTimeSyncMysqlTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/com/zoo/database/RealTimeSyncMysqlTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/cep/NFADemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/cep/NFADemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/example/wordcount/BatchWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/example/wordcount/BatchWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/source/ClickSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/source/ClickSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/table/TableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/table/TableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/util/LoginEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/util/LoginEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hive/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/src/main/java/com/zoo/hive/CustomPasswdAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/hive/src/main/java/com/zoo/hive/CustomPasswdAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/src/main/java/com/zoo/hive/HiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hive/src/main/java/com/zoo/hive/HiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/src/main/java/com/zoo/hive/udf/UdfDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hive/src/main/java/com/zoo/hive/udf/ZooHiveAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/words.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/DataGenerate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/DataGenerate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/KryoDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/KryoDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/DriverMemoryTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/DriverMemoryTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/PeekConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/PeekConfig.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/ReadData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/ReadData.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/SpecifyJoinType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/SpecifyJoinType.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/AqeDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/AqeDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/GroupByDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/GroupByDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/GroupByPiovtDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/GroupByPiovtDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/InnerJoinDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/InnerJoinDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftAntiDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftAntiDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftSemiJoinDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftSemiJoinDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/OutputFormat.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/OutputFormat.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/RightJoinDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/RightJoinDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/AggregateByKeyDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/AggregateByKeyDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/AggregateDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/AggregateDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/CoalesceTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/CoalesceTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/GroupByKeyDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/GroupByKeyDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/ReduceByKeyDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/ReduceByKeyDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/ReduceDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/ReduceDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/rdd/WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/utils/Function.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/utils/Function.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +71,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://D:/Maven/repository/org/apache/spark/spark-core_2.12/3.2.0/spark-core_2.12-3.2.0-sources.jar!/org/apache/spark/SparkConf.scala" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://D:/Maven/repository/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.jar!/scala/collection/immutable/Map.class" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="4abcfyqm" />
   </component>
@@ -42,7 +80,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\Maven\repository" />
+        <option name="localRepository" value="C:\Users\GUOWE\.m2\repository" />
         <option name="mavenHome" value="D:/pro_soft/maven/apache-maven-3.6.3" />
         <option name="threads" value="10" />
         <option name="usePluginRegistry" value="true" />
@@ -71,27 +109,32 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Y:/github/flink&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GUOWE/resource/github/BigDataRecord/zookeeper/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.3505747&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;6ce80d8ef01f5e98f941f200bba3baee&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;hive&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GUOWE\resource\github\BigDataRecord\zookeeper\src\main\resources" />
+      <recent name="C:\Users\GUOWE\resource\github\BigDataRecord\zookeeper" />
+      <recent name="C:\Users\GUOWE\resource\github\BigDataRecord" />
       <recent name="Y:\github\BigDataRecord\flink\src\main\scala\com\zoo\flink\scala\core\example" />
       <recent name="Y:\github\BigDataRecord\database\src\main\java" />
-      <recent name="Y:\github\BigDataRecord\database" />
-      <recent name="Y:\github\BigDataRecord\algorithm\src\main\scala\sort\scala" />
-      <recent name="Y:\github\BigDataRecord\grpc\src\main\java\com\zoo\grpc\api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Y:\github\BigDataRecord\flink\src\main\scala\com\zoo\flink\scala" />
@@ -114,20 +157,7 @@
       <recent name="com.zoo.flink.scala.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WindowTopNDemo">
-    <configuration name="ArrayToArrayBuffer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.lang.scala.test.ArrayToArrayBuffer" />
-      <module name="lang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.lang.scala.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ZkClient">
     <configuration name="BatchWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zoo.flink.javawordcount.BatchWordCount" />
       <module name="flink" />
@@ -142,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CumulateWindowExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.window.CumulateWindowExample" />
-      <module name="flink" />
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.ConsumerExample" />
+      <module name="kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.window.*" />
+          <option name="PATTERN" value="example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,25 +193,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.table.TableDemo" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.table.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="zookeeper" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowTopNDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.table.WindowTopNDemo" />
+    <configuration name="UseHiveCatalogDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.hive.UseHiveCatalogDemo" />
       <module name="flink" />
+      <target name="hadoop@hadoop102:22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.table.*" />
+          <option name="PATTERN" value="com.zoo.flink.java.hive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,15 +227,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.zoo.flink.java.sink.SinkToParquetFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.sink.SinkToParquetFileDemo" />
-      <module name="flink" />
+    <configuration name="ZkClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.sink.*" />
+          <option name="PATTERN" value="com.zoo.zookeeper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zoo.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.zoo.zookeeper.ZkClient" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZkClient.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper" />
+      <option name="PACKAGE_NAME" value="com.zoo.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.zoo.zookeeper.ZkClient" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZkClient.getChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zoo.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.zoo.zookeeper.ZkClient" />
+      <option name="METHOD_NAME" value="getChildren" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,23 +283,24 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.UseHiveCatalogDemo" />
       <item itemvalue="Application.BatchWordCount" />
       <item itemvalue="Application.MetaSpaceOomExample" />
       <item itemvalue="Application.WordCount" />
-      <item itemvalue="Application.WindowTopNDemo" />
-      <item itemvalue="Application.TableDemo" />
-      <item itemvalue="Application.CumulateWindowExample" />
-      <item itemvalue="Application.ArrayToArrayBuffer" />
-      <item itemvalue="Application.com.zoo.flink.java.sink.SinkToParquetFileDemo" />
+      <item itemvalue="Application.ConsumerExample" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.ZkClient" />
+      <item itemvalue="JUnit.ZkClient.getChildren" />
+      <item itemvalue="JUnit.ZkClient.create" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WindowTopNDemo" />
-        <item itemvalue="Application.CumulateWindowExample" />
-        <item itemvalue="Application.TableDemo" />
-        <item itemvalue="Application.ArrayToArrayBuffer" />
-        <item itemvalue="Application.com.zoo.flink.java.sink.SinkToParquetFileDemo" />
+        <item itemvalue="JUnit.ZkClient" />
+        <item itemvalue="JUnit.ZkClient.getChildren" />
+        <item itemvalue="JUnit.ZkClient.create" />
+        <item itemvalue="Application.ConsumerExample" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +360,28 @@
       <workItem from="1688432358547" duration="4725000" />
       <workItem from="1688606524117" duration="2768000" />
       <workItem from="1688715511670" duration="5170000" />
-      <workItem from="1688720981890" duration="4420000" />
+      <workItem from="1688720981890" duration="5109000" />
+      <workItem from="1688867199340" duration="19842000" />
+      <workItem from="1689230175932" duration="14267000" />
+      <workItem from="1689586427978" duration="2157000" />
+      <workItem from="1689643963727" duration="635000" />
+      <workItem from="1689645721308" duration="639000" />
+      <workItem from="1689668066284" duration="15654000" />
+      <workItem from="1689908878238" duration="51000" />
+      <workItem from="1689918874560" duration="9024000" />
+      <workItem from="1690162491342" duration="529000" />
+      <workItem from="1690163837049" duration="13428000" />
+      <workItem from="1690767171807" duration="1714000" />
+      <workItem from="1690769087602" duration="3058000" />
+      <workItem from="1690870070092" duration="8672000" />
+      <workItem from="1691116347569" duration="3882000" />
+      <workItem from="1691143655847" duration="2361000" />
+      <workItem from="1691718393491" duration="1877000" />
+      <workItem from="1691924265660" duration="2742000" />
+      <workItem from="1691975746084" duration="5583000" />
+      <workItem from="1691985303479" duration="676000" />
+      <workItem from="1692347477379" duration="2879000" />
+      <workItem from="1692444915049" duration="3290000" />
     </task>
     <servers />
   </component>

@@ -5,8 +5,8 @@ import org.apache.spark.sql.SparkSession
 import utils.Function.createLocalSparkSessionAndSparkContext
 
 /**
- * @Author: JMD
- * @Date: 4/10/2023
+ * Author: JMD
+ * Date: 4/10/2023
  */
 object PeekConfig {
   def main(args: Array[String]): Unit = {

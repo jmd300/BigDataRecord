@@ -4,8 +4,8 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
 /**
- * @Author: JMD
- * @Date: 4/8/2023
+ * Author: JMD
+ * Date: 4/8/2023
  */
 object CoalesceTest {
   def main(args: Array[String]): Unit = {

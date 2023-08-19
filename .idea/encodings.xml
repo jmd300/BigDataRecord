@@ -35,6 +35,8 @@
     <file url="file://$PROJECT_DIR$/protobuf/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/scalaz/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/scalaz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark/src/main/scala" charset="UTF-8" />
@@ -43,5 +45,7 @@
     <file url="file://$PROJECT_DIR$/unix/main.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/zio/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zio/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper/src/main/resources" charset="UTF-8" />
   </component>
 </project>

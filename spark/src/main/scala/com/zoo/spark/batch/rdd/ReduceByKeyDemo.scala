@@ -3,8 +3,8 @@ package com.zoo.spark.batch.rdd
 import utils.Function.createLocalSparkSessionAndSparkContext
 
 /**
- * @Author: JMD
- * @Date: 4/24/2023
+ * Author: JMD
+ * Date: 4/24/2023
  */
 object ReduceByKeyDemo {
   def main(args: Array[String]): Unit = {

@@ -15,6 +15,9 @@ import org.apache.flink.util.Collector;
 
  * 命令行提交参数
  * bin/flink run -m hadoop102:8081 -c com.zoo.flink.wordcount.BatchWordCount ~/BigDataRecord-jar-with-dependencies.jar ../hadoop-3.1.3/wcinput hdfs://hadoop102:8020/out
+ * 如果时向yarn提交任务：(指定内存为800M)
+ * ./bin/flink run-application -t yarn-application -Djobmanager.memory.process.size=800mb \
+ * -c org.apache.flink.examples.java.wordcount.WordCount examples/batch/WordCount.jar
  */
 public class BatchWordCount {
     public static void main(String[] args) throws Exception {

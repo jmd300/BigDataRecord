@@ -1,18 +1,20 @@
 package com.zoo.spark.batch.rdd
 
+import java.util.concurrent.TimeUnit
+
 import org.apache.spark.sql.functions.col
 import org.apache.spark.sql.SaveMode
+
 import utils.ArgsMap
 import utils.Function.createLocalSparkSessionAndSparkContext
 
-import java.util.concurrent.TimeUnit
 
 object WordCount {
   def main(args: Array[String]): Unit = {
     val argsMap = new ArgsMap(args)
 
     val inputPath = argsMap.getOrElse("inputPath", "input/words.txt")
-    val outPath = argsMap.getOrElse("outPath", "Y:\\out")
+    val outPath = argsMap.getOrElse("outPath", "D:\\out")
 
     val (spark, sc) = createLocalSparkSessionAndSparkContext()
     import spark.implicits._
@@ -36,7 +38,7 @@ object WordCount {
 
     while (true){
       println("while...")
-      TimeUnit.SECONDS.sleep(1)
+      TimeUnit.SECONDS.sleep(10)
     }
     spark.stop()
   }

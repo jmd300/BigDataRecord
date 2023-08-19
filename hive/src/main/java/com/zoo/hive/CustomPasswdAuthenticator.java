@@ -1,6 +1,6 @@
 package com.zoo.hive;
 
-/**
+/*
  * @Author: JMD
  * @Date: 5/5/2023
  */
@@ -12,7 +12,7 @@ import javax.security.sasl.AuthenticationException;
 
 public class CustomPasswdAuthenticator implements org.apache.hive.service.auth.PasswdAuthenticationProvider{
 
-    private Logger LOG = org.slf4j.LoggerFactory.getLogger(CustomPasswdAuthenticator.class);
+    private final Logger LOG = org.slf4j.LoggerFactory.getLogger(CustomPasswdAuthenticator.class);
     private static final String HIVE_JDBC_PASSWD_AUTH_PREFIX="hive.jdbc_passwd.auth.%s";
     private Configuration conf=null;
 
@@ -20,8 +20,9 @@ public class CustomPasswdAuthenticator implements org.apache.hive.service.auth.P
     public void Authenticate(String userName, String passwd) throws AuthenticationException {
         LOG.info("Hive2 login info... user: "+ userName +" is trying login.");
         String passwdConf = getConf().get(String.format(HIVE_JDBC_PASSWD_AUTH_PREFIX, userName));
-        if(passwdConf==null){
-            String message = "Hive2 login error! Configration null. user:"+userName;
+
+        if(passwdConf == null){
+            String message = "Hive2 login error! Configuration null. user:" + userName;
             LOG.info(message);
             throw new AuthenticationException(message);
         }
@@ -32,13 +33,13 @@ public class CustomPasswdAuthenticator implements org.apache.hive.service.auth.P
     }
 
     public Configuration getConf() {
-        if(conf==null){
-            this.conf=new Configuration(new HiveConf());
+        if(conf == null){
+            this.conf = new Configuration(new HiveConf());
         }
         return conf;
     }
 
     public void setConf(Configuration conf) {
-        this.conf=conf;
+        this.conf = conf;
     }
 }
