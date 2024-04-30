@@ -16,9 +16,9 @@ output
 *.ipr
 
 ### IntelliJ CLION ###
-unix/.idea
+linux/.idea
 
-unix/cmake-build-debug
+linux/cmake-build-debug
 
 ### Eclipse ###
 .apt_generated

@@ -17,7 +17,7 @@ object ArrayToArrayBuffer {
 
     val mutData: Array[ArrayBuffer[String]] = data.map(_.map(_.toString).toBuffer.asInstanceOf[ArrayBuffer[String]])
 
-    println(mutData.deep.mkString("\n"))
+    println(mutData.flatten.mkString("\n"))
 
     val dir = "Y:\\学习\\153-Flink核心技术与实战"
 

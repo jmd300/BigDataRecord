@@ -2,7 +2,6 @@ package com.zoo.flink.scala.core.example.wordcount
 
 import org.apache.flink.api.scala.{DataSet, ExecutionEnvironment}
 import org.apache.flink.api.scala._
-
 /**
  * Author: JMD
  * Date: 5/10/2023
