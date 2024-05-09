@@ -27,8 +27,7 @@ public class CreateIndex {
 
     public static void main(String[] args) throws IOException {
         // create the client
-        RestHighLevelClient client = new RestHighLevelClient(
-                RestClient.builder(new HttpHost("localhost", 9200, "http")));
+        RestHighLevelClient client = new RestHighLevelClient(RestClient.builder(new HttpHost("localhost", 9200, "http")));
 
         // create the index request
         CreateIndexRequest request = new CreateIndexRequest("poetry-index");
