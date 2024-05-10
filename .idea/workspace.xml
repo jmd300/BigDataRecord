@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/src/main/java/common/CreateIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/common/CreateIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/大数据开发手册.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/大数据开发手册.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/大数据开发问题总结.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/大数据开发问题总结.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,40 +75,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jmd/Desktop/github/springboot-demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3505747&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;6ce80d8ef01f5e98f941f200bba3baee&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "22",
+    "last_opened_file_path": "C:/Users/jmd/Desktop/github/BigDataRecord/doc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3505747",
+    "settings.editor.selected.configurable": "http.proxy",
+    "spring.configuration.checksum": "6ce80d8ef01f5e98f941f200bba3baee",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;hive&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "hive"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jmd\Desktop\github\BigDataRecord\doc" />
       <recent name="C:\Users\jmd\Desktop\github\BigDataRecord\sptingboot-demo\src\main\java\com\springboot\demo" />
       <recent name="C:\Users\GUOWE\resource\github\BigDataRecord\zookeeper\src\main\resources" />
       <recent name="C:\Users\GUOWE\resource\github\BigDataRecord\zookeeper" />
       <recent name="C:\Users\GUOWE\resource\github\BigDataRecord" />
-      <recent name="Y:\github\BigDataRecord\flink\src\main\scala\com\zoo\flink\scala\core\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Y:\github\BigDataRecord\flink\src\main\scala\com\zoo\flink\scala" />
@@ -430,7 +421,7 @@
       <workItem from="1714561319292" duration="409000" />
       <workItem from="1714561739300" duration="1186000" />
       <workItem from="1714627765362" duration="1443000" />
-      <workItem from="1715242908088" duration="5000" />
+      <workItem from="1715242908088" duration="853000" />
     </task>
     <servers />
   </component>
