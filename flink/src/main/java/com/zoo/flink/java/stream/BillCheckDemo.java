@@ -35,14 +35,12 @@ public class BillCheckDemo extends FlinkEnv {
                 Tuple4.of("order-1", "third-party", "success", 3000L),
                 Tuple4.of("order-3", "third-party", "success", 4000L)
         ).assignTimestampsAndWatermarks(WatermarkStrategy.<Tuple4<String, String, String, Long>>forMonotonousTimestamps()
-                        .withTimestampAssigner(new
-                                                       SerializableTimestampAssigner<Tuple4<String, String, String, Long>>() {
-                                                           @Override
-                                                           public long extractTimestamp(Tuple4<String, String, String, Long>
-                                                                                                element, long recordTimestamp) {
-                                                               return element.f3;
-                                                           }
-                                                       }));
+                        .withTimestampAssigner(new SerializableTimestampAssigner<Tuple4<String, String, String, Long>>() {
+                                               @Override
+                                               public long extractTimestamp(Tuple4<String, String, String, Long> element, long recordTimestamp) {
+                                                   return element.f3;
+                                               }
+                                           }));
 
         // 检测同一支付单在两条流中是否匹配，不匹配就报警
         appStream.connect(thirdPartStream)
@@ -63,8 +61,7 @@ public class BillCheckDemo extends FlinkEnv {
                     new ValueStateDescriptor<Tuple3<String, String, Long>>("app-event", Types.TUPLE(Types.STRING, Types.STRING, Types.LONG)));
 
             thirdPartyEventState = getRuntimeContext().getState(
-                    new ValueStateDescriptor<Tuple4<String, String, String, Long>>
-                            ("thirdparty-event", Types.TUPLE(Types.STRING, Types.STRING, Types.STRING,Types.LONG)));
+                    new ValueStateDescriptor<Tuple4<String, String, String, Long>>("thirdparty-event", Types.TUPLE(Types.STRING, Types.STRING, Types.STRING,Types.LONG)));
         }
         @Override
         public void processElement1(Tuple3<String, String, Long> value, Context ctx, Collector<String> out) throws Exception {

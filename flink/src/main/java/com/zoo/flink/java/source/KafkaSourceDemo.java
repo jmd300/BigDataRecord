@@ -3,6 +3,7 @@ package com.zoo.flink.java.source;
 import com.zoo.flink.java.util.FlinkEnv;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer;
+
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 
 import java.util.Properties;

@@ -25,6 +25,7 @@ import java.util.function.Supplier;
 
  * 这里显示的编号为 1~4，是由于运行电脑的 CPU 是 4 核，所以默认模拟的并行线程有 4 个。
  * 这段代码不同的运行环境，得到的结果会是不同的。关于 Flink 程序并行执行的数量，可以通过设定“并行度”（Parallelism）来进行配置
+ * com.zoo.flink.java.example.wordcount.StreamWordCount
  */
 public class StreamWordCount extends FlinkEnv {
     public void run(Supplier<DataStreamSource<String>> readFunc) throws Exception {
@@ -55,7 +56,7 @@ public class StreamWordCount extends FlinkEnv {
     }
 
     public static void main(String[] args) throws Exception {
-        runBoundedStreamWordCount();
+        // runBoundedStreamWordCount();
         runStreamWordCount();
     }
 }

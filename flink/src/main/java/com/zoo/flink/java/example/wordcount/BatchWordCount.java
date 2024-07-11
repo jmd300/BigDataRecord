@@ -61,6 +61,7 @@ public class BatchWordCount {
                 .groupBy(0).sum(1)
                 .print();
                 */
+        // 批处理不需要execute
         // env.execute();
     }
 }

@@ -1,6 +1,7 @@
 package com.zoo.zookeeper;
 
 import org.apache.zookeeper.*;
+import org.apache.zookeeper.data.Stat;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,8 +14,8 @@ import java.util.concurrent.TimeUnit;
  * @Date: 8/13/2023
  */
 public class ZkClient {
-    String connectionString = "hadoop102:2181,hadoop103:2181,hadoop104:2181";
-    private final int sessionTimeout = 2000;
+    static final String connectionString = "hadoop102:2181,hadoop103:2181,hadoop104:2181";
+    static  final int sessionTimeout = 2000;
 
     ZooKeeper zkClient;
 
@@ -32,16 +33,16 @@ public class ZkClient {
                 }
 
                 assert children != null;
-                System.out.println("------------------------");
+                System.out.println("-----------process-------------");
                 children.forEach(System.out::println);
-                System.out.println("------------------------");
+                System.out.println("-----------process over--------");
             }
         });
     }
 
     @Test
     public void create() throws InterruptedException, KeeperException {
-        String s = zkClient.create("/date_", "20230819".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+        String s = zkClient.create("/date", "20240514".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
 
         System.out.println("ret is " + s);
     }
@@ -50,11 +51,16 @@ public class ZkClient {
     public void getChildren() throws InterruptedException, KeeperException {
         List<String> children = zkClient.getChildren("/", true);
 
-        System.out.println("------------------------");
+        System.out.println("-----------getChildren-------------");
         children.forEach(System.out::println);
-        System.out.println("------------------------");
+        System.out.println("------------getChildren over-------");
 
         TimeUnit.MILLISECONDS.sleep(Long.MAX_VALUE);
     }
-
+    
+    @Test
+    public void exist() throws InterruptedException, KeeperException {
+        Stat stat = zkClient.exists("/hadoop", false);
+        System.out.println(stat == null ? "not exist" : "exist");
+    }
 }

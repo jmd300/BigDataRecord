@@ -53,6 +53,9 @@ object DataGenerate {
     val userInfoArray = userIds.map(e => (e, random.nextInt(20) + 10)).toSeq
     val userInfoRdd: RDD[(String, Int)] = sc.parallelize(userInfoArray, 12)
 
+
+    // userInfoRdd.coalesce(2, shuffle = true)
+
     println("userInfoRdd 分区数量", userInfoRdd.getNumPartitions)
     userInfoRdd.toDF("userId", "duration")
       .write

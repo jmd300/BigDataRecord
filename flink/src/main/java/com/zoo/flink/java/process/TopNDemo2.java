@@ -35,10 +35,11 @@ public class TopNDemo2 extends FlinkEnv {
         SingleOutputStreamOperator<Event> eventStream = env.addSource(new ClickSource())
                 .assignTimestampsAndWatermarks(WatermarkStrategy.<Event>forMonotonousTimestamps()
                         .withTimestampAssigner((SerializableTimestampAssigner<Event>) (element, recordTimestamp) -> element.timestamp));
+        
         // 需要按照 url 分组，求出每个 url 的访问量
         SingleOutputStreamOperator<UrlViewCount> urlCountStream = eventStream.keyBy(data -> data.url)
-                        .window(SlidingEventTimeWindows.of(Time.seconds(10), Time.seconds(5)))
-                        .aggregate(new UrlViewCountAgg(), new UrlViewCountResult());
+                .window(SlidingEventTimeWindows.of(Time.seconds(10), Time.seconds(5)))
+                .aggregate(new UrlViewCountAgg(), new UrlViewCountResult());
 
         // 对结果中同一个窗口的统计数据，进行排序处理
         SingleOutputStreamOperator<String> result = urlCountStream.keyBy(data -> data.windowEnd)

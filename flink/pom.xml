@@ -174,7 +174,11 @@
             <artifactId>flink-connector-kafka_${scala.binary.version}</artifactId>
             <version>${flink.version}</version>
         </dependency>
-
+<!--        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-kafka_2.12</artifactId>
+            <version>1.13.6</version>
+        </dependency>-->
         <!-- Scala 核心库 -->
         <dependency>
             <groupId>org.scala-lang</groupId>
@@ -321,6 +325,7 @@
             <version>${flink.version}</version>
         </dependency>
 
+        <!--rockdb状态后端的依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-statebackend-rocksdb_${scala.binary.version}</artifactId>
