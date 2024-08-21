@@ -5,57 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/sort/java/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/sort/java/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/sort/java/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/sort/java/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/~$据开发问题总结.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/~$据开发问题总结.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/~$数据开发手册.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/~$数据开发手册.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/大数据开发手册.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/大数据开发手册.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/大数据开发问题总结.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/大数据开发问题总结.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/example/wordcount/BatchWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/example/wordcount/BatchWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/example/wordcount/StreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/example/wordcount/StreamWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/process/TopNDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/process/TopNDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/source/KafkaSourceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/source/KafkaSourceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/stream/BillCheckDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/java/com/zoo/flink/java/stream/BillCheckDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/GenerateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hbase/GenerateData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/TopN/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hbase/TopN/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/TopN/PeopleDataGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hbase/TopN/PeopleDataGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/TopN/TopNDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hbase/TopN/TopNDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/TopN/TopNMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hbase/TopN/TopNMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/TopN/TopNReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hbase/TopN/TopNReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/mapreduce/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hbase/mapreduce/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/wordcount/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hbase/wordcount/WordCountDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/wordcount/WordCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hbase/wordcount/WordCountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hadoop/wordcount/WordCountReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/com/zoo/hbase/wordcount/WordCountReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hbase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hbase/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid34988.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lang/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/collecting/CollectingResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/lang/src/main/java/com/zoo/lang/collecting/CollectingResults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/csv/2023-07-10--15/.part-0-0.inprogress.e0d73417-5827-44dd-8b59-03d623cef30e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--17/.part-0-0.inprogress.726eb7cf-914c-418f-b936-5481e010e6a5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--17/.part-0-0.inprogress.a8157c53-3cb7-4930-ac2b-e0dbf7eac1c0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--18/.part-0-0.inprogress.2ea7dde9-80d6-4374-b030-d4a986fc736b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--18/.part-0-0.inprogress.5e2a27eb-e558-44ad-a937-7d1a6cfcc203" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--18/.part-0-0.inprogress.6a677b9c-464f-4d7e-a559-0ca98a9a85b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--18/.part-0-0.inprogress.931f5311-1d57-44cd-a11b-3e99b8bde930" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--18/.part-0-0.inprogress.b1109379-4d26-467a-a5b2-ef2f03c6064d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--18/.part-0-0.inprogress.bd9471c3-6ea5-4cf1-94b9-08003293b96c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--18/.part-0-0.inprogress.c3e892f6-0767-4004-9326-21786df43807" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--18/.part-0-0.inprogress.c518fcdc-54b7-4246-a6be-843c14b8702c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--19/.part-0-0.inprogress.5159a2cd-9c34-4daa-90ca-97da164e1fec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--19/.part-0-0.inprogress.7039db5d-cd05-42c6-8fde-d35c91f7100c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--19/.part-0-0.inprogress.9abdee21-3a0f-4217-bb4c-dc83f5f1128b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--19/.part-0-0.inprogress.9d0ee244-a1a1-4661-8431-78c52b083ae3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--19/.part-0-0.inprogress.b05a22a3-466f-4de7-aa0e-b71317a5a525" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-06-26--19/.part-0-0.inprogress.dd1c9f3e-e92e-472f-a3b8-806c3d1ad480" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/parquet/2023-07-05--12/.part-0-0.inprogress.5ac4ede4-5a04-4f9f-9e55-27275f7dbe4a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replay_pid34988.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/DataGenerate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/DataGenerate.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper/src/main/java/com/zoo/zookeeper/ZkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/src/main/java/com/zoo/zookeeper/ZkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftJoinDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftJoinDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/utils/Function.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/utils/Function.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +91,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jmd/Desktop/github/BigDataRecord/hbase&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jmd/Desktop/github/DockerPull&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -188,7 +141,18 @@
       <recent name="com.zoo.flink.scala.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.zoo.flink.java.example.wordcount.BatchWordCount">
+  <component name="RunManager" selected="Application.HiveExample">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BatchWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zoo.flink.javawordcount.BatchWordCount" />
       <module name="flink" />
@@ -196,6 +160,46 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zoo.flink.javawordcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BatchWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.javawordcount.BatchWordCount" />
+      <module name="flink" />
+      <option name="PROGRAM_PARAMETERS" value="input Y:\github\BigDataRecord\flink_out\" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.javawordcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousLoginDays" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.sql.ContinuousLoginDays" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousLoginDays" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.sql.ContinuousLoginDays" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.spark.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +221,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HBaseConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.hbase.HBaseConnect" />
-      <module name="hbase" />
+    <configuration name="DistributeServer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.zookeeper.case1.DistributeServer" />
+      <module name="zookeeper" />
+      <option name="PROGRAM_PARAMETERS" value="hadoop106" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.hbase.*" />
+          <option name="PATTERN" value="com.zoo.zookeeper.case1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,12 +235,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HBaseDDL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.hbase.HBaseDDL" />
-      <module name="hbase" />
+    <configuration name="Function" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="utils.Function" />
+      <module name="spark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.hbase.*" />
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Function" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="utils.Function" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiveExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.sql.HiveExample" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiveExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.sql.HiveExample" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.spark.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,12 +295,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.Synchronized" />
-      <module name="concurrency" />
+    <configuration name="MetaSpaceOomExample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MetaSpaceOomExample" />
+      <module name="jvm" />
+      <option name="VM_PARAMETERS" value="-XX:MaxMetaspaceSize=10m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqlExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.sql.SqlExample" />
+      <module name="spark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.*" />
+          <option name="PATTERN" value="com.zoo.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqlExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.sql.SqlExample" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseHiveCatalogDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.hive.UseHiveCatalogDemo" />
+      <module name="flink" />
+      <target name="hadoop@hadoop102:22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.flink.java.hive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,12 +383,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.zoo.flink.java.example.wordcount.BatchWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.flink.java.example.wordcount.BatchWordCount" />
-      <module name="flink" />
+    <configuration name="WordCountDriver" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.hbase.wordcount.WordCountDriver" />
+      <module name="hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.flink.java.example.wordcount.*" />
+          <option name="PATTERN" value="com.zoo.hbase.wordcount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,12 +396,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.zoo.hbase.scala.HBaseDDL" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zoo.hbase.scala.HBaseDDL" />
-      <module name="hbase" />
+    <configuration name="WordCount" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.batch.WordCount" />
+      <module name="spark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zoo.hbase.scala.*" />
+          <option name="PATTERN" value="com.zoo.spark.batch.rdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tencent" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.question.tencent" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tencent" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zoo.spark.question.tencent" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zoo.spark.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,6 +474,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Play2Run" type="Play2FrameworkRunConfigurations" factoryName="Play 2 App" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="enableSbtGlobalPlugins" value="false" />
+      <option name="play2EnvVariables">
+        <map />
+      </option>
+      <option name="play2IsNonDefaultInstallDirUsed" value="false" />
+      <option name="play2JpdaPort" value="9999" />
+      <option name="play2JvmOptions">
+        <array>
+          <option value="-Xms512M" />
+          <option value="-Xmx1024M" />
+          <option value="-Xss1M" />
+          <option value="-XX:+CMSClassUnloadingEnabled" />
+        </array>
+      </option>
+      <option name="play2NeedOpenInBrowser" value="true" />
+      <option name="play2NonDefaultInstallDir" value="" />
+      <option name="play2OpenUrl" value="http://localhost:9000" />
+      <option name="play2isAutoReloadEnabled" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spark-debug" type="Remote">
+      <module name="spark" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="spark://hadoop102" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="spark-debug" type="Remote">
       <module name="spark" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -390,6 +537,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jmd.springboot.SpringbootDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.WordCountDriver" />
       <item itemvalue="Application.BatchWordCount" />
@@ -397,22 +551,22 @@
       <item itemvalue="Application.MetaSpaceOomExample" />
       <item itemvalue="Application.UseHiveCatalogDemo" />
       <item itemvalue="Application.WordCount" />
-      <item itemvalue="Application.com.zoo.flink.java.example.wordcount.BatchWordCount" />
-      <item itemvalue="Application.com.zoo.hbase.scala.HBaseDDL" />
-      <item itemvalue="Application.HBaseConnect" />
-      <item itemvalue="Application.HBaseDDL" />
-      <item itemvalue="Application.Synchronized" />
+      <item itemvalue="Application.ContinuousLoginDays" />
+      <item itemvalue="Application.HiveExample" />
+      <item itemvalue="Application.Function" />
+      <item itemvalue="Application.SqlExample" />
+      <item itemvalue="Application.tencent" />
       <item itemvalue="Play 2 App.Play2Run" />
       <item itemvalue="Remote JVM Debug.spark-debug" />
       <item itemvalue="Spring Boot.SpringbootDemoApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.zoo.flink.java.example.wordcount.BatchWordCount" />
-        <item itemvalue="Application.com.zoo.hbase.scala.HBaseDDL" />
-        <item itemvalue="Application.HBaseDDL" />
-        <item itemvalue="Application.HBaseConnect" />
-        <item itemvalue="Application.Synchronized" />
+        <item itemvalue="Application.HiveExample" />
+        <item itemvalue="Application.ContinuousLoginDays" />
+        <item itemvalue="Application.SqlExample" />
+        <item itemvalue="Application.tencent" />
+        <item itemvalue="Application.Function" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +679,12 @@
       <workItem from="1719813302512" duration="11680000" />
       <workItem from="1720093254118" duration="1995000" />
       <workItem from="1720173594477" duration="6012000" />
-      <workItem from="1720504526081" duration="314000" />
+      <workItem from="1720504526081" duration="3550000" />
+      <workItem from="1721023969808" duration="903000" />
+      <workItem from="1721057199427" duration="1154000" />
+      <workItem from="1723002833331" duration="80606000" />
+      <workItem from="1723561344462" duration="7360000" />
+      <workItem from="1723971901814" duration="3502000" />
     </task>
     <servers />
   </component>

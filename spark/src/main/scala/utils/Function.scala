@@ -3,6 +3,10 @@ package utils
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.time.temporal.ChronoUnit
+
 /**
  * Author: JMD
  * Date: 4/7/2023
@@ -47,4 +51,24 @@ object Function {
     (spark, sc)
   }
 
+
+  // 日期字符串格式：yyyyMMdd
+  private val formatter = DateTimeFormatter.ofPattern("yyyyMMdd")
+
+  def dateDifference(dateStr1: String, dateStr2: String): Long = {
+    // 将字符串转换为 LocalDate 对象
+    val date1 = LocalDate.parse(dateStr1, formatter)
+    val date2 = LocalDate.parse(dateStr2, formatter)
+
+    // 计算日期之间的天数差值
+    ChronoUnit.DAYS.between(date1, date2)
+  }
+
+  def main(args: Array[String]): Unit = {
+    val date1 = "20231025"
+    val date2 = "20231029"
+
+    val daysBetween = dateDifference(date1, date2)
+    println(s"Days between $date1 and $date2: $daysBetween")
+  }
 }

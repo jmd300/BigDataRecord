@@ -1,7 +1,7 @@
 package com.zoo.spark.batch.dataframe
 
 import org.apache.spark.SparkConf
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions._
 import utils.Function.computeDataFrameSize
 
@@ -31,7 +31,7 @@ object LeftJoinDemo {
     userInfoDf.show(1)
     println("userInfoDfSize is: ", computeDataFrameSize(spark, userInfoDf))
 
-    val userLogDf = spark.read.option("header", "true").csv("input/userLog").cache
+    val userLogDf: DataFrame = spark.read.option("header", "true").csv("input/userLog").cache
     userLogDf.createTempView("userLogDfTable")
 
     userLogDf.show(1)
