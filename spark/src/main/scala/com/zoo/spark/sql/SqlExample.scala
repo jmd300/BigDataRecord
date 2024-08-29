@@ -25,6 +25,7 @@ object SqlExample {
     )).toDF("order_detail_id", "order_id", "sku_id", "create_date", "price", "sku_num")
     df1.createTempView("order_detail")
 
+    spark.read.parquet()
     val sql1 =
       s"""
          |select sku_id

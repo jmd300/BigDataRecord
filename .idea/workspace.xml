@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="32903055-d6c7-4cb2-aef4-3dc0a2b03929" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftJoinDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/batch/dataframe/LeftJoinDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/utils/Function.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/utils/Function.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/sql/SqlExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/src/main/scala/com/zoo/spark/sql/SqlExample.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -684,7 +682,7 @@
       <workItem from="1721057199427" duration="1154000" />
       <workItem from="1723002833331" duration="80606000" />
       <workItem from="1723561344462" duration="7360000" />
-      <workItem from="1723971901814" duration="3502000" />
+      <workItem from="1723971901814" duration="6568000" />
     </task>
     <servers />
   </component>
